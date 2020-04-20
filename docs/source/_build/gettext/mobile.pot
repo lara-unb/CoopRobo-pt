@@ -1,0 +1,1325 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Gabriel Araujo
+# This file is distributed under the same license as the CoopRobo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CoopRobo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-20 03:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../mobile.rst:2
+msgid "Mobile Robots"
+msgstr ""
+
+#: ../../mobile.rst:4
+#: ../../mobile/pioneer/hard/pioneer-robots.rst:2
+msgid "Robots"
+msgstr ""
+
+#: ../../mobile/pioneer.rst:2
+msgid "Pioneer"
+msgstr ""
+
+#: ../../mobile/pioneer.rst:6
+msgid "Modeling"
+msgstr ""
+
+#: ../../mobile/pioneer.rst:13
+msgid "Hardware"
+msgstr ""
+
+#: ../../mobile/pioneer.rst:25
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:51
+msgid "Software"
+msgstr ""
+
+#: ../../mobile/pioneer.rst:35
+msgid "Tutorials:"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:2
+msgid "Batteries"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:4
+msgid "All the three musketeers_ contain three sealed lead-acid batteries accessible through a hinged and latched rear door. The batteries charge life typically ranges from two to three hours."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:7
+msgid "Batteries have a significant impact on the balance and operation of your robot. Under most conditions, we recommend operating with three batteries. Otherwise, a single battery should be mounted in the center, or two batteries inserted on each side of the battery container."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:11
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:42
+msgid "By Mobile Robots©"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:16
+msgid "Batteries Specs"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:17
+msgid "Lead-acid"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:18
+msgid "Sealed"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:19
+msgid "12 VDC"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:20
+msgid "4 Ah"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:21
+msgid "With 3 batteries, 252 Wh"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:22
+msgid "Hot-swappable"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:26
+msgid "Battery Indicators and Low Voltage Conditions"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:27
+msgid "The User Control Panel [1]_ has a bi-color LED labeled BATTERY that visually indicates current battery voltage. From approximately 12.5 volts and above, the LED glows bright green. The LED turns progressively orange and then red as the voltage drops to approximately 11.5 volts."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:29
+msgid "Arually, the buzzer will sound a repetitive alarm if the battery voltage drops below 11.5 VDC. If the battery voltage drops below 11 VDC the microcontroller automatically shuts down a client connection and notifies the computer to shut down."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:32
+msgid "The batteries voltage is monitored by a own package, this package if necessary notifies the user and shut down automatically the operating system. See more in `robot monitor`_."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:35
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:34
+msgid "The Pioneer family has a board which all the batteries are connected, there is a 20 Amp car fuse in this board. Please be sure that this fuse is connected and working. The robot should not be able to power up without it."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:41
+msgid "Recharging"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:44
+msgid "Standart Charger"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:45
+msgid "This accessory recharge the batteries in the fast-charge mode (4A maximum current). The fast-charge mode is showed with an orange LED and trickle mode by a green LED, which the batteries are given only enough current to remain at full charge."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:48
+msgid "In the fast-charge mode, care must be taken to charge at least two batteries at once. A single battery may overcharge and thereby damage both itself and the robot."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:51
+msgid "Power Cube"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:52
+msgid "This accessory allows simultaneous recharge of three batteries outside the robot."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-batteries.rst:55
+msgid "See in the `manual`_."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:2
+msgid "Cameras"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:4
+msgid "Athos have a Stereo Camera, Aramis a Kinect and a USB Camera, Porthos only Kinect."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:7
+msgid "Stereo Cameras"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:12
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:28
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:50
+#: ../../mobile/pioneer/hard/pioneer-gps.rst:12
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:13
+msgid "Specs"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:14
+msgid "Aquisition rate: 30 fps"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:17
+msgid "Kinect"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:22
+msgid "Kinect is a motion sensor device by Microsoft©"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:29
+msgid "Color Camera Resolution 640 x 480"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:30
+msgid "Depth Camera Resolution 320 x 240"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:31
+msgid "Max Depth Distance ~4.5 m"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:32
+msgid "Min Depth Distance ~0.04 m"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:33
+msgid "Viewing angle 43° vertical by 57° horizontal field of view"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:34
+msgid "Vertical tilt range   +-27°"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:35
+msgid "Frame rate (depth and color stream) 30 fps"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:36
+msgid "Audio format  16-kHz, 24-bit mono pulse code modulation (PCM)"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:37
+msgid "Audio input characteristics A four-microphone array with 24-bit analog-to-digital converter (ADC) and Kinect-resident signal processing including acoustic echo cancellation and noise suppression"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:38
+msgid "Accelerometer characteristics A 2G/4G/8G accelerometer configured for the 2G range, with a 1° accuracy upper limit."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:42
+msgid "USB Camera"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:47
+msgid "The USB Camera in Aramis is a FMVU-03MTM-CS from Point Grey."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:51
+msgid "Resolution    752 x 480"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:52
+msgid "Frame Rate    60 fps"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:53
+msgid "Megapixels    0.3 MP"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:54
+msgid "Chroma        Mono"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:55
+msgid "Sensor Type   CMOS"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:56
+msgid "Readout Method    Global shutter"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-cameras.rst:57
+msgid "Interface     USB 2.0"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:2
+msgid "Computer"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:4
+msgid "All the three robots have the same onboard computer, to run its system."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:10
+msgid "IPX1800G2 from PCWARE"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:14
+msgid "Computer Specs"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:16
+msgid "Model IPX1800G2"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:17
+msgid "Processor Intel® Celeron Dual-Core J1800, 2.41GHz"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:18
+msgid "RAM 4 GB DDR3 SODIMM"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:19
+msgid "SSD 120 GB"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:20
+msgid "6 USB 2.0"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:21
+msgid "1 USB 3.0"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:22
+msgid "1 RS232, already used for robot's microcontroller"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:23
+msgid "WiFi"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:24
+msgid "VGA and HDMI out"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:28
+msgid "Power Supply"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:30
+msgid "The Computer is powered by a DC-DC Circuit. Athos and Aramis have an M4-ATX and Porthos have a Pico PSU-160-XT. They are only used to power up the computer using the 24 pin ATX connector. Others accessories, such as Kinect and cameras, use the `Motor Power Board`_."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:39
+msgid "M4-ATX"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:41
+msgid "The M4-ATX Power Supply is manufactured by `Minibox`_."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:50
+msgid "`M4 ATX Manual`_"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:56
+msgid "PSU-160-XT Specs"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-computer.rst:64
+msgid "`PSU 160 XT Manual`_"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-gps.rst:2
+msgid "GPS Receiver"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-gps.rst:6
+msgid "The robots have each one a Novatel GPS receiver model OEMV-1. We have a custom software_ to publish the GPS readings in ROS and a custom hardware_ to power the receiver."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-gps.rst:13
+msgid "GPS tracking"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-gps.rst:14
+msgid "L1, L-Band and SBAS signal tracking"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-gps.rst:15
+msgid "Low power consumption for longer operating time"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-gps.rst:16
+msgid "Single frequency"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-gps.rst:20
+msgid "Antenna"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-gps.rst:24
+msgid "\"The ANT-35C1GA-TW-N is an active GPS antenna, 88.9 mm (3.5”) in diameter, and designed to operate at the GPS L1 frequency of 1575.42 MHz. Its mechanical configuration is a spherical radius molded radome which provides enhanced protection against rain and ice.\"[1]_"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-gps.rst:28
+#: ../../mobile/pioneer/hard/pioneer-gps.rst:34
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:49
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:55
+msgid "Power Board"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-gps.rst:36
+msgid "A circuit board was built to integrate GPS and IMU readings, to communicate with onboard pc and to power the GPS receiver and the IMU."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-gps.rst:42
+msgid "Power Board with GPS Receiver and IMU (under GPS) in its case."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-gps.rst:44
+msgid "See more in the `antenna user guide`_."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:2
+msgid "IMU"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:7
+msgid "The MEMSense NanoIMU is a 9DOF IMU with thermometer used in the robots together with GPS receiver. We have a custom software_ and a hardware_ to power and send the readings to the computer."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:16
+msgid "Gyrometer Specs"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:17
+msgid "Dynamic Range           +-300 º/s"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:18
+msgid "Offset                  +-1.5 º/s"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:19
+msgid "Cross-axis sensitivity  +-1 %"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:20
+msgid "Nonlinearity            +-0.1 % of FS (Best fit straight line)"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:21
+msgid "Noise                   0.56 (max 0.95) º/s, sigma"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:22
+msgid "Digital Sensitivity     1.3733E-2"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:23
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:32
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:41
+msgid "Bandwidth               50 Hz"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:26
+msgid "Accelerometer Specs"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:27
+msgid "Dynamic Range           +-2 g"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:28
+msgid "Offset                  +-30 mg"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:29
+msgid "Nonlinearity            +-0.4 (max +-1.0) % of FS"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:30
+msgid "Noise                   0.6 (max 0.8) mg, sigma"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:31
+msgid "Digital Sensitivity     9.1553E-5"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:35
+msgid "Magnetometer Specs"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:36
+msgid "Dynamic Range           +-1.9 gauss"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:37
+msgid "Drift                   2700 ppm/ºC"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:38
+msgid "Nonlinearity            +-0.5 % of FS (Best fit straight line)"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:39
+msgid "Noise                   0.00056 (max 0.0015) gauss, sigma"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:40
+msgid "Digital Sensitivity     8.6975E-5"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:44
+msgid "Thermometer Specs"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:45
+msgid "Digital Sensitivity     1.8165E-2"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-imu.rst:57
+msgid "The circuit board is the same for GPS receiver, more informations here_."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-robots.rst:6
+msgid "All robot's name were referencies to `The Three Musketeers`_"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-robots.rst:12
+msgid "Athos"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-robots.rst:14
+msgid "Athos is Pioneer 3-AT"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-robots.rst:17
+msgid "Aramis"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-robots.rst:19
+msgid "Aramis is Pioneer 3-DX"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-robots.rst:22
+msgid "Porthos"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-robots.rst:24
+msgid "Porthos is Pioneer 3-AT"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-robots.rst:31
+msgid "Athos inside."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-robots.rst:38
+msgid "Hardware Diagram."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-robots.rst:46
+msgid "Navigation System Diagram."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:2
+msgid "Sonars"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:4
+msgid "Athos and Porthos has two sonar arrays (front and rear), while Aramis have only one (front) sonar array, sonar or ultrasoud is a sensor that uses sound wave for detect obstacles and range information for collision avoidance."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:9
+msgid "Sonar Specs"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:11
+msgid "Range of view: 0.1 m ~ 5 m"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:12
+msgid "Aquisition rate: 25 Hz"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:16
+msgid "If the sonar doesn't view anything in its cone of view, it will send to the software the max range."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:19
+msgid "Geometry"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:21
+msgid "The position of each sonar is showed in the image below."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:26
+msgid "All these locations are fixed in the robot."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:27
+msgid "There're a URDF file, describing these locations to ROS. Please see the section `description of the robot`_."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:32
+msgid "Sensitivity Adjustment"
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:34
+msgid "The driver electronics for each array is calibrated at the factory. However, you may adjust the array’s sensitivity and range to accommodate differing operating environments. The sonar gain control is on the underside of the sonar driver board, which is attached to the floor of each sonar module."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:36
+msgid "Sonar sensitivity adjustment controls are accessible directly, although you may need to remove the Gripperto access the front sonar, if you have that accessory attached. For the front sonar, for instance, locate ahole near the front underside of the array through which you can see the cap of the sonar-gain adjustment  potentiometer. Using a small flat-blade screwdriver, turn the gain control counterclockwise to make the sonar less sensitive to external noise and false echoes."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:38
+msgid "Low sonar-gain settings reduce the robot’s ability to see small objects. Under some circumstances, that is desirable. For instance, attenuate the sonar if you are operating in a noisy environment or on uneven or highly reflective floor, a heavy shag carpet, for example. If the sonar are too sensitive, they will “see” the carpet immediately ahead of the robot as an obstacle."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:40
+msgid "Increase the sensitivity of the sonar by turning the gain-adjustment screw clockwise, making them more likely to see small objects or objects at a greater distance. For instance, increase the gain if youare operating in a relatively quiet and open environment with a smooth floor surface."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:46
+msgid "See more in the `manual`_."
+msgstr ""
+
+#: ../../mobile/pioneer/hard/pioneer-sonars.rst:53
+msgid "We use the `p2os`_ to read the sonars readings and the `sonar_viz`_ to transform the readings in standart data to better maniplation."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:2
+msgid "Kinematics"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:6
+msgid "Kinematics, in classical mechanics, study the description of the motion of points, bodies (objects), and groups of bodies without considering the forces that cause them to move. In mobile robotics, kinematics helps us to understand and quantify the constraints about the robot design, which implies restrictions in its movement. Also, we can draw the paths and trajectories that the robot can do. Here, the text focus on wheeled robots, which can only move in 2D space."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:17
+msgid "Pioneer P3-DX"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:23
+msgid "Pioneer P3-AT"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:26
+msgid "The P3-DX is a two-wheel-drive and P3-AT is a four-wheel-drive. The `Omron Adept MobileRobots`_ considers in its manual the P3-DX as a differential drive robot and the P3-AT as a skid/slip drive robot. For our sake, both are modeled as differential drive vehicles because the exact center of rotation in a skid/slip drive is unpredictable [1]_."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:33
+msgid "In order to represent the motion of a mobile robot, we must define the reference frames and determine their position. There are two essential frames to a robot if we consider the robot as a rigid body. They are the global reference frame, that is world fixed, and the local reference frame, which is robot fixed."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:43
+msgid "The global reference frame and the robot local reference frame. Figure from [1]_."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:45
+msgid "The figure shows a robot and its reference frames. Where the :math:`X_I` and :math:`Y_I` defines the global reference frame, also known as the inertial frame, and :math:`X_R` and :math:`Y_R` defines the local reference frame or the robot frame. The coordinates :math:`x` and :math:`y` represent the robot's position in the global reference frame, point P, whereas :math:`\\theta` is the angular difference among the global and the local reference frames. Thus, we represent the robot's pose as the vector with these three components."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:50
+msgid "\\xi_I = \\left[ \\begin{array}{c} x \\\\ y \\\\ \\theta \\end{array} \\right]"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:54
+msgid "We could still assume the robot as a rigid body free in the space, with 6 degrees of freedom, :math:`[x, y, z, \\phi, \\psi, \\theta]^T`. However, as the robot is moving subject to gravity, which keeps it confined to a euclidian plane, :math:`x` and :math:`y` describe the robot's position, and :math:`\\theta` describes the orientation in the plane. The 2D space in which the robot lies is called the *C-space* [5]_, firstly formalized in [6]_, also called the configuration space. A configuration is a complete specification of the position of every point in the system. The space of all configurations is the *C-space*."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:60
+msgid "We can now utilize this definition to describe elements represented in the local frame in the global frame and vice-versa. For example, we can map the motion calculated in the global frame to motion in the robot's local frame. Or, we can map obstacles sensed by the robot in terms of the global reference frame."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:64
+msgid "R(\\theta) = \\left[ \\begin{array}{c} cos \\theta & sin \\theta & 0 \\\\                                    -sin \\theta & cos \\theta & 0 \\\\                                          0     &      0     & 1 \\end{array} \\right]"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:69
+msgid "The *orthogonal rotation matrix* does the map between these frames as a function of the robot's current pose."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:71
+msgid "\\dot{\\xi_R} = R(\\theta) \\dot{\\xi_I}"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:75
+msgid "It does not make sense to talk about the robot's pose in the local frame. Because, the point P, the origin of the coordinates, moves around with the robot. So, the robot's pose in the local frame is, always, :math:`\\xi_R = [0, 0, 0]^T`. That is why the relationship is between the derivative of the pose in the frames."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:78
+msgid "Wheels and its constraints"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:80
+msgid "\"Wheeled Mobile Robots (WMR) constitute a class of mechanical systems characterized by kinematics constraints that are not integrable and cannot, therefore, be eliminated from the model equations\" [2]_. If we want to study and describe a robot motion, we also must specify which are the hypotheses and constraints of the wheels. There are three essential hypotheses about the kinematics model of the wheeled robot during the motion; they are:"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:84
+msgid "Each wheel remain perpendicular about its plane;"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:85
+msgid "There is only one contact point between plane and wheel;"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:86
+msgid "There is only rolling without slipping;"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:88
+msgid "And two constraints:"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:90
+msgid "About rolling: the motion component along the wheel plane is equal to the rotation velocity of the wheel;"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:91
+msgid "About slipping: the motion component along the orthogonal direction is equal to zero;"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:93
+msgid "Some authors may call these constraints as \"the pure rolling and rotation condition\"."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:97
+msgid "Differential Drive Model"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:99
+msgid "Now we delve into modeling of a differential drive kinematic. Dudek et al. say that the differential drive consists of two wheels mounted in the same axis with separated motors [3]_. Each wheel contributes to the robot motion, so to fully describe the robot motion, we must compute each contribution."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:109
+msgid "Wheel velocities and the robot frame."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:111
+msgid "The image shows the robot, the wheel velocities, and the local frame. :math:`\\dot{\\phi}_1` and :math:`\\dot{\\phi}_2` is the spin speed of the left wheel and right wheel. :math:`r` is the wheel radius, while the distance between the two wheels is :math:`l`. While :math:`v_1` is the left wheel velocity along the ground and :math:`v_2` the right wheel velocity. As the wheels contribute independently to the robot motion, we can analyze each contribution separately."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:117
+msgid "\\begin{array}{c}    v_i   = \\frac{\\dot{\\phi}_i r}{2} \\\\ \\omega_i = \\frac{\\dot{\\phi}_i r}{2 l} \\\\    \\text{where } i = \\{1, 2\\} \\end{array}"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:124
+msgid "Point :math:`P` is halfway between the two wheels, so each wheel contributes with half of the linear speed of the robot in the direction of :math:`X_R`. Each wheel also adds a new component to the angular speed of the robot. :math:`v_1` moves the robot clockwise around point :math:`P` while :math:`v_2` moves it counter-clockwise. That is why they differ in their sign. And, using the equation which relates the angular speed of disk with its linear speed, we have the above equations."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:130
+msgid "Using the superposition theorem, we have the equations for the linear velocity in the direction of :math:`X_R` and the angular velocity in the direction of :math:`Z_R`:"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:132
+msgid "\\begin{array}{c} v      & = &   v_1 + v_2 \\\\ \\omega & = & -\\omega_1 + \\omega_2 \\end{array}"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:138
+msgid "In the local frame, we have the following kinematic equation:"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:140
+msgid "\\dot{\\xi_R} & = & \\left[ \\begin{array}{c} \\frac{r}{2} &  \\frac{r}{2} \\\\                               0       &        0 \\\\                       -\\frac{r}{2 l}  & \\frac{r}{2 l}  \\end{array} \\right] \\left[ \\begin{array}{c} \\dot{\\phi}_1 \\\\ \\dot{\\phi}_2 \\end{array} \\right]"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:147
+msgid "In the robot frame, there is no velocity in the direction of :math:`Y_R`. Because we assumed the pure rolling and rotation condition. And yet he can reach any point in the global frame."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:150
+msgid "Forward Kinematics"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:152
+msgid "The forward kinematics problem tries to solve the problem when we have the control inputs, and we must know where the robot goes in the global frame. As we have seen, to solve this question, we should know five parameters of the robot — two parameters about the robot geometry, :math:`l` and :math:`r`, the current robot orientation, :math:`\\theta`, and, at least, the two inputs, :math:`\\dot{\\phi}_1` and :math:`\\dot{\\phi}_2`."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:155
+msgid "\\dot{\\xi_I} = \\left[ \\begin{array}{c} \\dot{x} \\\\ \\dot{y} \\\\ \\dot{\\theta} \\end{array} \\right] = f(l, r, \\theta, \\dot{\\phi_1}, \\dot{\\phi_2})"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:158
+msgid ":math:`f` is the function that solves the forward kinematics problem. To map between the parameter vector, :math:`\\{l, r, \\theta, \\phi_1, \\phi_2\\}`, and the state of the robot in the inertial frame. We should use the matrix, which links the spin speed and the derivative of the robot state in the local frame. Then, we can transform the robot velocities in the local frame to the global frame utilizing the inverse of the rotation matrix."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:163
+msgid "\\begin{array}{c}  R(\\theta)^{-1} = \\left[ \\begin{array}{c} cos \\theta &-sin \\theta & 0 \\\\                                           sin \\theta & cos \\theta & 0 \\\\                                                0     &      0     & 1 \\end{array} \\right], & \\dot{\\xi_I} = R(\\theta)^{-1} \\dot{\\xi_R}, & \\dot{\\xi_R} = \\left[ \\begin{array}{c} \\frac{r}{2} &  \\frac{r}{2} \\\\                               0       &        0 \\\\                       -\\frac{r}{2 l}  & \\frac{r}{2 l}  \\end{array} \\right] \\left[ \\begin{array}{c} \\dot{\\phi}_1 \\\\ \\dot{\\phi}_2 \\end{array} \\right] \\end{array}"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:176
+msgid "\\dot{\\xi_I} & = & R(\\theta)^{-1} \\left[ \\begin{array}{c} \\frac{r}{2} &  \\frac{r}{2} \\\\                               0       &        0 \\\\                       -\\frac{r}{2 l}  & \\frac{r}{2 l}  \\end{array} \\right] \\left[ \\begin{array}{c} \\dot{\\phi}_1 \\\\ \\dot{\\phi}_2 \\end{array} \\right]"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:183
+msgid "Then,"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:185
+msgid "f(l, r, \\theta, \\dot{\\phi_1}, \\dot{\\phi_2}) & = & \\left[ \\begin{array}{c} cos \\theta &-sin \\theta & 0 \\\\                         sin \\theta & cos \\theta & 0 \\\\                              0     &      0     & 1 \\end{array} \\right] \\left[ \\begin{array}{c} \\frac{r}{2} &  \\frac{r}{2} \\\\                               0       &        0 \\\\                       -\\frac{r}{2 l}  & \\frac{r}{2 l}  \\end{array} \\right] \\left[ \\begin{array}{c} \\dot{\\phi}_1 \\\\ \\dot{\\phi}_2 \\end{array} \\right]"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:195
+msgid "f(l, r, \\theta, \\dot{\\phi_1}, \\dot{\\phi_2}) & = & \\left[ \\begin{array}{c} \\frac{r cos \\theta}{2} &  \\frac{r cos \\theta}{2} \\\\                         \\frac{r sin \\theta}{2} &  \\frac{r sin \\theta}{2} \\\\                        -\\frac{r}{2 l}          &  \\frac{r}{2 l}    \\end{array} \\right] \\left[ \\begin{array}{c} \\dot{\\phi}_1 \\\\ \\dot{\\phi}_2 \\end{array} \\right]"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:202
+#: ../../mobile/pioneer/model/kinematics.rst:225
+msgid "Or"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:204
+msgid "\\dot{\\xi_I} & = & \\left[ \\begin{array}{c} \\frac{r cos \\theta}{2} &  \\frac{r cos \\theta}{2} \\\\                         \\frac{r sin \\theta}{2} &  \\frac{r sin \\theta}{2} \\\\                        -\\frac{r}{2 l}          &  \\frac{r}{2 l}    \\end{array} \\right] \\left[ \\begin{array}{c} \\dot{\\phi}_1 \\\\ \\dot{\\phi}_2 \\end{array} \\right]"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:212
+msgid "The matrix which maps spin speed to the robot velocities is commonly known as **Jacobian Matrix**. \"The Jacobian maps configuration velocities to workspace velocities\" [5]_."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:215
+msgid "Well, we know the relationship between spin speeds and robot velocities, but what about the robot pose in the global frame?"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:217
+msgid "\\xi_I = \\int_{0}^{t} \\left[ \\begin{array}{c} \\frac{r cos \\theta}{2} &  \\frac{r cos \\theta}{2} \\\\                         \\frac{r sin \\theta}{2} &  \\frac{r sin \\theta}{2} \\\\                        -\\frac{r}{2 l}          &  \\frac{r}{2 l}    \\end{array} \\right] \\left[ \\begin{array}{c} \\dot{\\phi}_1 \\\\ \\dot{\\phi}_2 \\end{array} \\right] dt"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:227
+msgid "\\begin{cases} x(t) = \\frac{r}{2} \\int_{0}^{t} (\\dot{\\phi_1}(t) + \\dot{\\phi_2}(t)) cos (\\theta(t)) dt \\\\ y(t) = \\frac{r}{2} \\int_{0}^{t} (\\dot{\\phi_1}(t) + \\dot{\\phi_2}(t)) sin (\\theta(t)) dt \\\\ \\theta(t) = \\frac{r}{2 l} \\int_{0}^{t} (\\dot{\\phi_2}(t) - \\dot{\\phi_1}(t)) dt \\end{cases}"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:235
+msgid "Inverse Kinematics"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:237
+msgid "The inverse kinematics problem is the opposite of the forward problem. The problem aims to solve the following question: \"Given the desired pose, which are the controls needed to reach the desired pose?\". We already know the relationship between the velocity and"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:241
+msgid "\\left[ \\begin{array}{c} \\dot{\\phi_1} \\\\ \\dot{\\phi_2}\\end{array} \\right] = g(\\dot{\\xi_I})"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:244
+msgid "The function :math:`g` is the mathematical inverse of the function :math:`f`."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:246
+msgid "g = f^{-1} = \\left[ \\begin{array}{c} \\frac{r cos \\theta}{2} &  \\frac{r cos \\theta}{2} \\\\                        \\frac{r sin \\theta}{2} &  \\frac{r sin \\theta}{2} \\\\                       -\\frac{r}{2 l}          &  \\frac{r}{2 l}    \\end{array} \\right]^{-1}"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:252
+msgid "As we can see, the matrix which represents the function :math:`f` is not invertible. The forward kinematics is an easy problem because we have one and only one solution. Nevertheless, the inverse kinematics is often not analytically solvable; commonly, we have more than one solution or none. However, we can try to solve the problem, limiting the possibles solutions like :math:`\\dot{\\phi}_1 = \\dot{\\phi}_2` or :math:`\\dot{\\phi}_1 = -\\dot{\\phi}_2`."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:258
+msgid "Straight Line"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:260
+msgid "If we limit the solution to :math:`\\dot{\\phi}_1 = \\dot{\\phi}_2 = \\dot{\\phi}`, with :math:`\\dot{\\phi} > 0`, the robot should move along a straight line. Then, the robot motion simplifies to:"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:263
+msgid "\\xi_I = \\left[ \\begin{array}{c} x' \\\\ y' \\\\ \\theta' \\end{array} \\right] = \\left[ \\begin{array}{c} x + v cos (\\theta) \\delta t \\\\ y + v sin (\\theta) \\delta t \\\\ \\theta \\end{array} \\right]"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:269
+msgid "Rotaion in place"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:271
+msgid "Similarly, if we limit the solution to :math:`-\\dot{\\phi}_1 = \\dot{\\phi}_2`, with :math:`\\dot{\\phi}_2 > 0`, the robot should rotate in the place around the point P."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:273
+msgid "\\xi_I = \\left[ \\begin{array}{c} x' \\\\ y' \\\\ \\theta' \\end{array} \\right] = \\left[ \\begin{array}{c} x \\\\ y \\\\ \\theta + \\frac{2 v}{l} \\delta t \\end{array} \\right]"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:279
+msgid "Motion Composition"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:281
+msgid "If we would like to drive the robot from any pose to some other pose in the global frame, we can decompose the motion in two rotations in place and one translation along a straight line. The robot can turn in the place aligning its orientation aiming the goal position, :math:`(x_d,y_d)`, then move forward to the goal position, and then turn in the place again to reach the goal orientation, :math:`\\theta_d`."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:289
+msgid "A robot is moving around with the proposed motion framework."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:291
+msgid "The image above tries to illustrate the proposed motion. The robot starts with the :math:`\\xi_I = [ x, y, \\theta ]^T`. Then it spun around the point :math:`P` and aim the desired position :math:`P' = (x_d,y_d)` reaching the pose :math:`\\xi'_I = [ x, y, \\theta_1 ]^T`. To reach the position, it moves forward to :math:`P' = (x_d,y_d)` and reaches :math:`\\xi''_I = [ x_d, y_d, \\theta_1 ]^T`. And then the robot spun again to from :math:`\\theta_1` to :math:`\\theta_d`. The final robot state should be :math:`\\xi'''_I = [ x_d, y_d, \\theta_d ]^T`."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:299
+msgid "The Unicycle Model"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:301
+msgid "So far, we saw the kinematics of a two-wheeled robot. But now we talk about a more general and simple model. The previous model tells us how a robot with two wheels can reach a specific pose in the world, acting in the wheel speeds. But, we do not care about how the wheel is turning; we care about the pose of the robot. The unicycle model represents a robot with only one wheel. If the wheel complies with our pure rotation and rolling condition, the wheel has two control inputs, the linear velocity, :math:`v`, in the axis :math:`X_R` and the angular velocity, :math:`\\omega`, around :math:`Z_R`. So, the kinematics of a unicycle robot described in the inertial frame :math:`\\{ X_I , Y_I , θ \\}` is given by"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:309
+msgid "\\left[ \\begin{array}{c} \\dot{x} \\\\ \\dot{y} \\\\ \\dot{\\theta} \\end{array} \\right] & = & \\left[ \\begin{array}{c} v \\cos \\theta \\\\ v \\sin \\theta \\\\ \\omega \\end{array} \\right] & = & \\left[ \\begin{array}{c} \\cos \\theta & 0 \\\\ \\sin \\theta & 0 \\\\ 0 & 1 \\end{array} \\right] \\left[ \\begin{array}{c} v \\\\ \\omega \\end{array} \\right]"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:314
+msgid "Where :math:`x`, :math:`y` and :math:`\\theta` are the coordinates of the robot in the global frame and :math:`u = (v, \\omega)` is the control vector."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:319
+msgid "A differential-drive robot in its global reference frame. Figure from [1]_."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:321
+msgid "Commercial robots usually provide an interface to translate from a desired unicycle control input to desired wheel velocities. And a lower level dedicated microcontroller, which aims to control the wheel velocities."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:325
+msgid "Notes on Control"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:327
+msgid "So, we should be able to build a system or software capable of, using the maths showed, move a robot to any reachable goal. The control theory is the branch of maths dedicated to this problem. A control system sends inputs to the system and leads the variables of the system to the desired goal. Our system is a mobile robot. And, using the previous equations, the inputs are the spin speed of each wheel, and the output is the pose of the robot."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:337
+msgid "A controller should give the system the inputs necessary to perform the desired action. As in the image below:"
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:341
+msgid "If we see the controller and the robot as a single system, we can have another system with the desired state as input and the robot state as output. Then we can build a new controller which deals with choosing the desired state. In the same manner, if we would like to control the velocities of the robot and not only the pose, to be able to control how the robot moves. We can add the velocities to the robot state vector and control them with the equations related."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:352
+msgid "A differential drive robot has a major problem which is... Feng et al. [4]_ develops in 1993 a motion controller which..."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:358
+#: ../../mobile/pioneer/model/probmotion.rst:65
+msgid "Roland Siegwart and Illah R. Nourbakhsh. 2004. Introduction to Autonomous Mobile Robots. Bradford Company, USA."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:359
+msgid "Campion, G. Bastin and B. Dandrea-Novel, \"`Structural properties and classification of kinematic and dynamic models of wheeled mobile robots`_,\" in IEEE Transactions on Robotics and Automation, vol. 12, no. 1, pp. 47-62, Feb. 1996."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:360
+msgid "Gregory Dudek and Michael Jenkin. 2010. Computational Principles of Mobile Robotics (2nd. ed.). Cambridge University Press, USA."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:361
+msgid "Feng, Y. Koren and J. Borenstein, \"`Cross-coupling motion controller for mobile robots`_,\" in IEEE Control Systems Magazine, vol. 13, no. 6, pp. 35-43, Dec. 1993."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:362
+msgid "`Choset`_, K. M. Lynch, S. Hutchinson, G. Kantor, W. Burgard, L. E. Kavraki and S. Thrun, \"`Principles of Robot Motion`_: Theory, Algorithms, and Implementations,\" MIT Press, Boston, 2005."
+msgstr ""
+
+#: ../../mobile/pioneer/model/kinematics.rst:363
+msgid "`Lozano-Perez`_, \"`Spatial Planning`_: A Configuration Space Approach,\" in IEEE Transactions on Computers, vol. C-32, no. 2, pp. 108-120, Feb. 1983."
+msgstr ""
+
+#: ../../mobile/pioneer/model/probmotion.rst:2
+msgid "Probabilistic Kinematics"
+msgstr ""
+
+#: ../../mobile/pioneer/model/probmotion.rst:4
+msgid "In the previous section, we try to model the movement of a mobile robot mathematically. As we have seen, we made assumptions to get a simple model capable of describing the movement without loss of generality. Nevertheless, if the assumptions are incorrect, we have to put in the trash all our work? Or, we can make adjustments to continue to describe the actions with the same simplicity of the previous model?"
+msgstr ""
+
+#: ../../mobile/pioneer/model/probmotion.rst:9
+msgid "Well, the purpose of this section is to delve into the assumptions. Try to predict when they are incorrect. Furthermore, study a way that could deal with this kind of problem."
+msgstr ""
+
+#: ../../mobile/pioneer/model/probmotion.rst:14
+msgid "In the previous sections, we build a mathematical model looking at a mobile robot modeled with just two wheels. However, our robots have more than two wheels. The P3-DX has three wheels, two motored, and a castor wheel. The P3-AT has four wheels and two motors, one for each side. None of them fits in our model. The castor wheel adds a new problem in the differential drive model. Moreover, the four wheels violate the pure rolling and rotation condition."
+msgstr ""
+
+#: ../../mobile/pioneer/model/probmotion.rst:23
+msgid "The castor wheel problem"
+msgstr ""
+
+#: ../../mobile/pioneer/model/probmotion.rst:25
+msgid "The castor wheel, unlike fixed wheels, is an off-centered wheel that is orientable to the robot frame."
+msgstr ""
+
+#: ../../mobile/pioneer/model/probmotion.rst:33
+msgid "Castor wheel."
+msgstr ""
+
+#: ../../mobile/pioneer/model/probmotion.rst:35
+msgid "The castor wheel does not add any additional constraints to the robot motion, because the robot motion will steer the wheel to a new orientation. However, in a castor wheel, the steering action itself moves the robot chassis because of the offset between the ground contact point and the vertical axis of rotation."
+msgstr ""
+
+#: ../../mobile/pioneer/model/probmotion.rst:38
+msgid "The steering action adds uncertainty to the robot motion. As we can not predict the additional action, we can not guarantee that the control action will drive the robot to the desired pose."
+msgstr ""
+
+#: ../../mobile/pioneer/model/probmotion.rst:44
+msgid "Castor wheel producing a unpredictable behavior."
+msgstr ""
+
+#: ../../mobile/pioneer/model/probmotion.rst:46
+msgid "The above image shows the simulation of rotation in place of the P3-DX. The castor wheel begins not aligned to the rotation. Then the robot starts to move; this movement steers the castor wheel. Although, the castor wheel pushes the robot away from its original position when steering. We can try to parameterize the steering action, adding a new translation and expand the previous model to add the new change, as we see in [1]_. Nonetheless, here we try to generalize this problem as a violation of the motion hypothesis since the robot will not move as the equations tell anymore."
+msgstr ""
+
+#: ../../mobile/pioneer/model/probmotion.rst:55
+msgid "The assumption violation"
+msgstr ""
+
+#: ../../mobile/pioneer/model/probmotion.rst:58
+msgid "Velocity Motion Model"
+msgstr ""
+
+#: ../../mobile/pioneer/model/probmotion.rst:62
+msgid "Odometry Motion Model"
+msgstr ""
+
+#: ../../mobile/pioneer/soft/archsystem.rst:2
+msgid "System's Architecture"
+msgstr ""
+
+#: ../../mobile/pioneer/soft/gazebo.rst:2
+msgid "Gazebo Simulator"
+msgstr ""
+
+#: ../../mobile/pioneer/soft/move-base.rst:2
+msgid "Move Base Package"
+msgstr ""
+
+#: ../../mobile/pioneer/soft/p2os.rst:2
+msgid "P2OS Package"
+msgstr ""
+
+#: ../../mobile/pioneer/soft/ros.rst:2
+msgid "ROS"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:2
+msgid "Mobile Robotics Lab 1"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:5
+#: ../../mobile/pioneer/tuto/lab2.rst:5
+#: ../../mobile/pioneer/tuto/lab3.rst:5
+msgid "Objetivos"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:7
+msgid "Aprender a criar um pacote no ROS."
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:11
+msgid "Introdução"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:13
+msgid "Todo o software produzido no ROS é organizado em pacotes. Um pacote pode conter nós do ROS, bibliotecas independentes, datasets, arquivos de configuração ou qualquer material que possa constituir um módulo. Para que um pacote seja visto pelo ROS ele deve ter no mínimo os seguintes requisitos:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:15
+msgid "Deve conter um arquivo chamado package.xml com código catkin;"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:16
+msgid "Deve conter um arquivo CMakeLists.txt;"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:17
+msgid "Cada pacote deve ter seu próprio diretório;"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:19
+msgid "O arquivo package.xml reúne todas as informações de autor, nome do pacote, versão do código e dependências. Já o CMakeLists.txt reúne as regras de compilação do pacote."
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:23
+#: ../../mobile/pioneer/tuto/lab2.rst:11
+#: ../../mobile/pioneer/tuto/lab3.rst:10
+msgid "Procedimentos"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:25
+msgid "No terminal, configure o ros com o comando:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:26
+msgid "$ bash.sh"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:27
+msgid "No novo terminal aberto, entre na pasta catkin_ws. Esse será o ambiente de trabalho a ser usado neste curso:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:28
+#: ../../mobile/pioneer/tuto/lab1.rst:39
+msgid "$ cd catkin_ws"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:29
+msgid "Entre na pasta src. Para o ROS essa é pasta onde fica o código fonte dos pacotes:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:30
+msgid "$ cd src"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:31
+msgid "Use o script catkin_create_pkg para criar um novo pacote. Esse pacote será chamado de ‘beginner_tutorials’ e terá como dependências os pacotes std_msgs, roscpp e rospy:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:32
+msgid "$ catkin_create_pkg beginner_tutorials std_msgs rospy roscpp"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:34
+msgid "Este comando irá criar uma pasta chamada de beginner_tutorials que conterá um package.xml e um CMakeLists.txt parcialmente preenchidos com as dependências indicadas."
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:34
+msgid "Abra o CMakeLists.txt em um editor de texto e procure onde as dependências são chamadas."
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:35
+msgid "Abra o package.xml em um editor de texto e procure onde as informações de autor, versão e dependências são informadas."
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:36
+msgid "Para compilar o workspace volte para catkin_ws:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:37
+#: ../../mobile/pioneer/tuto/lab3.rst:16
+msgid "$ cd ~/catkin_ws"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:39
+msgid "Atualize as variáveis de ambiente do ROS:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:40
+msgid "$ . devel/ros_custom.sh"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:42
+msgid "Compile o workspace:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:42
+msgid "$ catkin_make"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:45
+msgid "Exemplo"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:56
+#: ../../mobile/pioneer/tuto/lab2.rst:54
+#: ../../mobile/pioneer/tuto/lab3.rst:37
+msgid "Referências"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:57
+msgid "Esse tutorial foi baseado no tutorial Creating a ROS Package do ROS:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab1.rst:59
+msgid "http://wiki.ros.org/ROS/Tutorials/CreatingPackage"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:2
+msgid "Mobile Robotics Lab 2"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:7
+msgid "Aprender sobre mensagens e tópicos do ROS."
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:14
+msgid "Abra o terminal e inicie o nó central do ROS:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:14
+msgid "$ roscore"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:17
+msgid "Em outro terminal inicie o turtlesim:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:17
+msgid "$ rosrun turtlesim turtlesim_node"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:20
+msgid "O ROS usa um sistema de comunicação distribuída em que os executáveis, chamados de nós, usam tópicos para a troca de mensagens. Um nó pode publicar e/ou se inscrever em um tópico. Para ver os tópicos ativos, abra um novo terminal e use o comando:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:20
+msgid "$ rostopic list"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:23
+msgid "Este comando irá listar todos os tópicos ativos. Para ver o nós ativos use:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:23
+msgid "$ rosnode list"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:26
+msgid "Para ver as informações de um nó, use rosnode info /nome_do_no:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:26
+msgid "$ rosnode info /turtlesim"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:29
+msgid "Este comando irá mostrar os tópicos que são publicados e ouvidos pelo nó turtlesim. Para mover a tartaruga do turtlesim deve-se publicar no tópico /turtle1/cmd_vel. Cada tópico no ROS tem um único tipo de mensagem. Para saber qual o tipo da mensagem publicada no tópico /turtle1/cmd_vel use o comando:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:29
+msgid "$ rostopic info /turtle1/cmd_vel"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:33
+msgid "Este comando mostrará o tipo de mensagem, os ‘publishers’ e os ‘subscribers’ deste tópico. O tipo ‘geometry_msgs/Twist’ representa uma velocidade como uma velocidade angular e uma velocidade linear. Para ver a estrutura dessa mensagem visite http://docs.ros.org/api/geometry_msgs/html/msg/Twist.html ou use o comando:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:32
+msgid "$ rosmsg show geometry_msgs/Twist"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:33
+msgid "Obs.: Todas as unidades no ROS estão no Sistema Internacional de Unidades (SI), portanto a velocidade se dá em m/s;"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:37
+msgid "Para publicar uma mensagem no tópico /turtle1/cmd_vel, use o comando:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:36
+msgid "$ rostopic pub /turtle1/cmd_vel geometry_msgs/Twist \"{linear:[0.0, 0.0, 0.0], angular:[0.0, 0.0, 0.0]}\""
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:37
+msgid "Obs.: a tecla TAB pode ser usada para completar os comandos;"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:40
+msgid "O primeiro argumento da mensagem representa a velocidade linear e suas componentes x, y e z. Já o segundo argumento representa a velocidade angular e suas componentes. Como a tartaruga está sendo simulada em um ambiente 2D apenas as velocidades linear em x e angular em z farão a tartaruga se mover. Para isso use, por exemplo:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:40
+msgid "$ rostopic pub /turtle1/cmd_vel geometry_msgs/Twist \"{linear:[1.0, 0.0, 0.0], angular:[0.0, 0.0, 0.0]}\""
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:43
+msgid "Para enviar uma mensagem em loop, deve-se adicionar o argumento ‘-r <frequência_do_loop>’. Para enviar o mesmo comando acima em um loop de 10 Hz, por exemplo, use:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:43
+msgid "$ rostopic pub /turtle1/cmd_vel geometry_msgs/Twist \"{linear:[0.0, 0.0, 0.0], angular:[0.0, 0.0, 1.0]}\" -r 10"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:47
+msgid "Para ver o que está sendo publicado em um nó pode se usar ‘rostopic echo’:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:46
+msgid "$ rostopic echo /turtle1/cmd_vel"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:47
+msgid "$ rostopic echo /turtle1/pose"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:49
+msgid "Usando os comando acima faça a tartaruga desenhar uma linha. Usando os comando acima faça a tartaruga desenhar um quadrado. Usando os comando acima faça a tartaruga desenhar um círculo."
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:56
+msgid "Para mais informações sobre tópicos, mensagens e nós visite:"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:58
+msgid "http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:59
+msgid "http://wiki.ros.org/ROS/Tutorials/UnderstandingTopics"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:60
+msgid "Referência sobre geometry_msgs: http://wiki.ros.org/geometry_msgs"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab2.rst:61
+msgid "Referência sobre o turtlesim: http://wiki.ros.org/turtlesim"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab3.rst:2
+msgid "Mobile Robotics Lab 3"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab3.rst:7
+msgid "O objetivo desse exercício é programar a movimentação de um robô diferencial usando os comando no terminal aprendidos no laboratório passado. Este exercício usará uma versão simulada do robô Pioneer."
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab3.rst:13
+msgid "Na pasta src do seu workspace (catkin_ws/src/) baixe o pacote fcr2018"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab3.rst:13
+msgid "$ git clone https://github.com/Gastd/fcr2018"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab3.rst:17
+msgid "Atualize as variáveis de ambiente do ROS"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab3.rst:17
+msgid "$ source devel/ros_custom.sh"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab3.rst:20
+msgid "Abra a simulação do pioneer"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab3.rst:20
+msgid "$ roslaunch fcr2017 pioneer3at.gazebo.launch"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab3.rst:22
+msgid "Use o ‘rostopic list’ para descobrir quais mensagens o pioneer publica e quais ele recebe. Use o ‘rostopic echo’ para olhá-las."
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab3.rst:24
+msgid "Descubra qual tópico o robô usa para publicar as informações do laser"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab3.rst:26
+msgid "Descubra qual tópico o robô usa para publicar as informações da odometria"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab3.rst:28
+msgid "Descubra qual tópico é usado para enviar velocidades para o robô"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab3.rst:30
+msgid "Use o ‘rostopic pub’ para publicar velocidades. Escolha números que façam o robô andar em uma linha reta"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab3.rst:32
+msgid "Faça o robô andar em um círculo"
+msgstr ""
+
+#: ../../mobile/pioneer/tuto/lab3.rst:34
+msgid "Faça o robô andar em um retângulo"
+msgstr ""
+

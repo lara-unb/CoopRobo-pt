@@ -1,0 +1,453 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="pt-BR" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-BR" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Lab 1: First Contact &mdash; documentação CoopRobo 1.0.0</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../../_static/language_data.js"></script>
+        <script type="text/javascript" src="../../../_static/translations.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Índice" href="../../../genindex.html" />
+    <link rel="search" title="Buscar" href="../../../search.html" />
+    <link rel="next" title="Meka" href="../../meka.html" />
+    <link rel="prev" title="ROS" href="../soft/ros.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> CoopRobo
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Robots</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../aerial.html">Aerial Robots</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../mobile.html">Mobile Robots</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../manipulators.html">Manipulators</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../ur3.html">UR3</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../model/sysdes.html">System Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../model/kinematics.html">Kinematics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../model/dynamics.html">Dynamics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../hard/robots.html">Robots</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../soft/ros.html">ROS</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Lab 1: First Contact</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#objective">objective</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#procedures-to-setup-the-ur3-robot">Procedures to setup the ur3 robot</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#procedures-to-setup-the-linux-pc">Procedures to setup the Linux PC</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ros-initialization">ROS initialization</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#running-demo-1">Running Demo_1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#view-topics">View topics</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#rqt-plot-graphical-data-visualization-interface">rqt_plot: Graphical data visualization interface</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#saving-the-experiment-to-a-file">Saving the experiment to a file</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#turning-off-robot-and-computer">Turning off Robot and Computer</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../meka.html">Meka</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../schunk.html">Schunk</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../docs-ref.html">Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../camera.html">Camera</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">CoopRobo</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../../manipulators.html">Manipulators</a> &raquo;</li>
+        
+          <li><a href="../../ur3.html">UR3</a> &raquo;</li>
+        
+      <li>Lab 1: First Contact</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../../_sources/manipulators/ur3/tuto/first_c.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="lab-1-first-contact">
+<h1>Lab 1: First Contact<a class="headerlink" href="#lab-1-first-contact" title="Link permanente para este título">¶</a></h1>
+<div class="section" id="objective">
+<h2>objective<a class="headerlink" href="#objective" title="Link permanente para este título">¶</a></h2>
+<p>The new user contacts the ur3 platform and performs a first experiment.</p>
+</div>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link permanente para este título">¶</a></h2>
+<p>This lab teaches how to run a code to make a simple move on the ur3 robot using ROS.</p>
+</div>
+<div class="section" id="procedures-to-setup-the-ur3-robot">
+<h2>Procedures to setup the ur3 robot<a class="headerlink" href="#procedures-to-setup-the-ur3-robot" title="Link permanente para este título">¶</a></h2>
+<p>First, let’s turn on the UR3 robot by pressing the POWER button shown in figure 1.</p>
+<div class="figure align-center" id="id1">
+<a class="reference internal image-reference" href="../../../_images/power.jpeg"><img alt="Power button" src="../../../_images/power.jpeg" style="width: 100.0px; height: 100.0px;" /></a>
+<p class="caption"><span class="caption-text">Figure 1: Power button</span></p>
+</div>
+<p>After pressing the power button, the screen like the figure below will appear.</p>
+<div class="figure align-center" id="id2">
+<a class="reference internal image-reference" href="../../../_images/tela_carregando.jpeg"><img alt="loading" src="../../../_images/tela_carregando.jpeg" style="width: 500.0px; height: 300.0px;" /></a>
+<p class="caption"><span class="caption-text">Figure 2: Loading screen</span></p>
+</div>
+<p>After loading the robot system, the screen as the figure below will appear.</p>
+<div class="figure align-center" id="id3">
+<a class="reference internal image-reference" href="../../../_images/go_initialize.jpeg"><img alt="go initialize" src="../../../_images/go_initialize.jpeg" style="width: 500.0px; height: 300.0px;" /></a>
+<p class="caption"><span class="caption-text">Figure 3: Apresentation screen</span></p>
+</div>
+<p>Now, turn on the control box by clicking <strong>Go to the initialization screen</strong>, which is in the center of figure 3.</p>
+<p>now, we have a screen like figure 4.</p>
+<div class="figure align-center" id="id4">
+<a class="reference internal image-reference" href="../../../_images/ini_robot.jpeg"><img alt="init robot" src="../../../_images/ini_robot.jpeg" style="width: 500.0px; height: 300.0px;" /></a>
+<p class="caption"><span class="caption-text">Figure 4: screen to turn on the robotic arm.</span></p>
+</div>
+<p>The turn on the robot, press the <strong>ON</strong> button. The screen that will appear will be like as in figure 5.</p>
+<div class="figure align-center" id="id5">
+<a class="reference internal image-reference" href="../../../_images/start.jpeg"><img alt="start" src="../../../_images/start.jpeg" style="width: 500.0px; height: 300.0px;" /></a>
+<p class="caption"><span class="caption-text">Figure 5: start screen.</span></p>
+</div>
+<p>The robot is now on. To unlock the joints, press the <strong>START</strong> button.
+The robot will make an unlocking sound, which is expected, and will enter the normal operating mode that can be seen in figure 6.</p>
+<div class="figure align-center" id="id6">
+<a class="reference internal image-reference" href="../../../_images/ok.jpeg"><img alt="ok" src="../../../_images/ok.jpeg" style="width: 500.0px; height: 300.0px;" /></a>
+<p class="caption"><span class="caption-text">Figure 6.</span></p>
+</div>
+<p>Depois disso, aperte <strong>OK</strong> que fica localizado no canto inferior direito da tela (figura 6).
+Now, a new screen will appear (figure 7) with some options for robot functionality. Let’s click on <strong>Program Robot</strong>.</p>
+<div class="figure align-center" id="id7">
+<a class="reference internal image-reference" href="../../../_images/pr.jpeg"><img alt="pr" src="../../../_images/pr.jpeg" style="width: 500.0px; height: 300.0px;" /></a>
+<p class="caption"><span class="caption-text">Figure 7.</span></p>
+</div>
+<p>Depois de apertar <strong>Program Robot</strong> aparecerá uma tela semelhante a figura 8. Aperte <strong>Move</strong>.</p>
+<p>Ready. We have completed our robot setup and the final screen is similar to Figure 9.</p>
+<div class="figure align-center" id="id8">
+<a class="reference internal image-reference" href="../../../_images/move.jpeg"><img alt="move" src="../../../_images/move.jpeg" style="width: 500.0px; height: 300.0px;" /></a>
+<p class="caption"><span class="caption-text">Figure 8.</span></p>
+</div>
+<div class="figure align-center" id="id9">
+<a class="reference internal image-reference" href="../../../_images/home.jpeg"><img alt="home" src="../../../_images/home.jpeg" style="width: 500.0px; height: 300.0px;" /></a>
+<p class="caption"><span class="caption-text">Figure 9.</span></p>
+</div>
+</div>
+<div class="section" id="procedures-to-setup-the-linux-pc">
+<h2>Procedures to setup the Linux PC<a class="headerlink" href="#procedures-to-setup-the-linux-pc" title="Link permanente para este título">¶</a></h2>
+<p>Now let’s turn on the computer that controls the robot.
+To do this, connect the LARA computer designated for the UR3 robot.
+The computer name is <strong>ur3</strong> and password <strong>ur3</strong>.</p>
+<p>One more thing, the communication will be done using the TCP/IP protocol using cable,
+so check if the network cable of the Lara-robots router is connected to the ur3 computer.</p>
+<p>After making the instructions described in the paragraph above,
+we will download the files that contain the codes for our experiment.
+To do this, open the application called <strong>Terminator</strong> on the ubuntu 18.04 taskbar,
+which is exactly like figure 10.</p>
+<div class="figure align-center" id="id10">
+<a class="reference internal image-reference" href="../../../_images/terminator.png"><img alt="terminator" src="../../../_images/terminator.png" style="width: 90.0px; height: 90.0px;" /></a>
+<p class="caption"><span class="caption-text">Figure 10: Terminator</span></p>
+</div>
+<p>After opening <strong>Terminator</strong>, we will use the command <strong>git clone</strong> to download the file.
+Then, type in the Terminator the command (If the file already exists, skip this step):</p>
+<blockquote>
+<div><ul class="simple">
+<li>$ git clone <a class="reference external" href="https://github.com/lara-unb/UR3_interface.git">https://github.com/lara-unb/UR3_interface.git</a></li>
+</ul>
+</div></blockquote>
+<p>The next step is to compile the code to “run” on the ur3 computer.
+To compile the code we will enter the directory,
+using Terminator, where the executable folders are.</p>
+<p>With the command shown below you can enter the interface code workspace.</p>
+<blockquote>
+<div><ul class="simple">
+<li>$ cd UR3_interface/catkin_ur3</li>
+</ul>
+</div></blockquote>
+<p>To compile the code use the command:</p>
+<blockquote>
+<div><ul class="simple">
+<li>$ catkin_make</li>
+</ul>
+</div></blockquote>
+<p>You will receive a message like the one in figure 11 below.</p>
+<div class="figure align-center" id="id11">
+<a class="reference internal image-reference" href="../../../_images/comp.png"><img alt="compile" src="../../../_images/comp.png" style="width: 800.0px; height: 400.0px;" /></a>
+<p class="caption"><span class="caption-text">Figure 11.</span></p>
+</div>
+<p>The computer setup is ready. In the next step we will learn how to start the ROS (Robot Operating System).</p>
+</div>
+<div class="section" id="ros-initialization">
+<h2>ROS initialization<a class="headerlink" href="#ros-initialization" title="Link permanente para este título">¶</a></h2>
+<p>The demo_1 interface and executables are ready (done in the previous step),
+now let’s start ROS. For that, we will open more sections in Terminator.</p>
+<p>Open 4 (four) sections as shown in figure 12 below.</p>
+<p>To split the Terminator you can use Ctrl + shift + O to split horizontally or Ctrl + shift + E to split vertically.
+Remembering that the new sections have to be in the same workspace.</p>
+<div class="figure align-center" id="id12">
+<a class="reference internal image-reference" href="../../../_images/ter_4.png"><img alt="Terminatopor 4 section" src="../../../_images/ter_4.png" style="width: 800.0px; height: 400.0px;" /></a>
+<p class="caption"><span class="caption-text">Figure 12.</span></p>
+</div>
+<p>Para iniciar o ROS use o comando:</p>
+<blockquote>
+<div><ul class="simple">
+<li>$ roscore</li>
+</ul>
+</div></blockquote>
+<p>When ROS is ready, you will receive a message in one of the sections as shown in figure 13 shown below.</p>
+<div class="figure align-center" id="id13">
+<a class="reference internal image-reference" href="../../../_images/roscore.png"><img alt="roscore" src="../../../_images/roscore.png" style="width: 800.0px; height: 400.0px;" /></a>
+<p class="caption"><span class="caption-text">Figure 13.</span></p>
+</div>
+<p>NOTE: Don’t touch the section that ROS is running.</p>
+</div>
+<div class="section" id="running-demo-1">
+<h2>Running Demo_1<a class="headerlink" href="#running-demo-1" title="Link permanente para este título">¶</a></h2>
+<p>To run <strong>demo_1</strong>, we will first run the <strong>interface</strong> (Use another section of Terminator).
+For this, we will configure setup of the ROS package with the following command:</p>
+<blockquote>
+<div><ul class="simple">
+<li>$ source devel/setup.bash</li>
+</ul>
+</div></blockquote>
+<p>Do this for all sections of the Terminator except for the one running ROS.</p>
+<p>Now let’s “run” the interface application.
+To do this, type the command shown below and press ENTER on one of the Terminator sections.</p>
+<blockquote>
+<div><ul class="simple">
+<li>$ rosrun ur3 interface</li>
+</ul>
+</div></blockquote>
+<p>If everything is working as expected,
+the message we will get in return for this command is shown below in figure 14.</p>
+<div class="figure align-center" id="id14">
+<a class="reference internal image-reference" href="../../../_images/inter.png"><img alt="inter" src="../../../_images/inter.png" style="width: 800.0px; height: 400.0px;" /></a>
+<p class="caption"><span class="caption-text">Figure 14.</span></p>
+</div>
+<p>When you have confirmation that the robot is ready (UR3 is ready) we can run demo_1.</p>
+<p>Now, in another section of Terminator, we will “run” the demo-1 application.
+To do this, type the command shown below and press ENTER.</p>
+<blockquote>
+<div><ul class="simple">
+<li>$ rosrun ur3 demo_1</li>
+</ul>
+</div></blockquote>
+<p>At this point, the robot should start making a repetitive movement and after a few seconds it will stop.
+After that movement for the robot will have executed demo_1.</p>
+</div>
+<div class="section" id="view-topics">
+<h2>View topics<a class="headerlink" href="#view-topics" title="Link permanente para este título">¶</a></h2>
+<p>Topics are data structures in which the variables of the robot joints are published.
+In this robot, there are two topics, but for this experiment,
+we will focus on just one that will be the topic <strong>arm</strong>.</p>
+<p>In order to observe the data present in the topic <strong>arm</strong>,
+we will type, in another section of <strong>Terminator</strong> the following command:</p>
+<blockquote>
+<div><ul class="simple">
+<li>$ rostopic echo /arm</li>
+</ul>
+</div></blockquote>
+<p>Figure 15, shown below, shows the result of this command with its respective variables.</p>
+<div class="figure align-center" id="id15">
+<a class="reference internal image-reference" href="../../../_images/topic.png"><img alt="topic" src="../../../_images/topic.png" style="width: 800.0px; height: 200.0px;" /></a>
+<p class="caption"><span class="caption-text">Figure 15.</span></p>
+</div>
+<p>You can “kill” this command by typing ctrl + C.</p>
+</div>
+<div class="section" id="rqt-plot-graphical-data-visualization-interface">
+<h2>rqt_plot: Graphical data visualization interface<a class="headerlink" href="#rqt-plot-graphical-data-visualization-interface" title="Link permanente para este título">¶</a></h2>
+<p>To have a visualization of the joint data in a graphical interface,
+we will use the application rqt_plot.
+This application allows the user to observe that of a variable over time.</p>
+<p>Given that explanation, let’s use the tool.
+To do this, type the command shown below.</p>
+<blockquote>
+<div><ul class="simple">
+<li>$ rqt_plot</li>
+</ul>
+</div></blockquote>
+<p>Figure 16, shown below, shows the application rqt_plot with
+one of the variables (joint speed 0 (zero)) being shown over time.</p>
+<div class="figure align-center" id="id16">
+<a class="reference internal image-reference" href="../../../_images/rqt.png"><img alt="rqt_plot" src="../../../_images/rqt.png" style="width: 800.0px; height: 400.0px;" /></a>
+<p class="caption"><span class="caption-text">Figure 16.</span></p>
+</div>
+<p>To see a particular variable, type/arm/variable[joint number] in Topic below MatPlot.</p>
+</div>
+<div class="section" id="saving-the-experiment-to-a-file">
+<h2>Saving the experiment to a file<a class="headerlink" href="#saving-the-experiment-to-a-file" title="Link permanente para este título">¶</a></h2>
+<p>To save the data, just type the following command:</p>
+<blockquote>
+<div><ul class="simple">
+<li>$ rosbag record /arm</li>
+</ul>
+</div></blockquote>
+<p>With this command you will write the data for all topics in a bag file.</p>
+</div>
+<div class="section" id="turning-off-robot-and-computer">
+<h2>Turning off Robot and Computer<a class="headerlink" href="#turning-off-robot-and-computer" title="Link permanente para este título">¶</a></h2>
+<p>To turn the robot off, press the <strong>POWER</strong> button, figure 1, and then click <strong>Power Off</strong>.</p>
+<p>To shut down the computer, close all <strong>Terminator</strong> tabs and shut down Ubuntu normally.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../meka.html" class="btn btn-neutral float-right" title="Meka" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../soft/ros.html" class="btn btn-neutral float-left" title="ROS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Gabriel Araujo
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

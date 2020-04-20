@@ -1,0 +1,1030 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Gabriel Araujo
+# This file is distributed under the same license as the CoopRobo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CoopRobo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-20 03:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../aerial.rst:2
+msgid "Aerial Robots"
+msgstr ""
+
+#: ../../aerial.rst:7
+msgid "Robots"
+msgstr ""
+
+#: ../../aerial/vr01.rst:2
+msgid "VR-01"
+msgstr ""
+
+#: ../../aerial/vr01.rst:8
+msgid "Aircraft Ranger EX Volatex RC"
+msgstr ""
+
+#: ../../aerial/vr01.rst:16
+msgid "This work seeks the study, documentation and development of cooperative control techniques for unmanned aerial vehicles in order to enable three fixed-wing aircraft to fly, autonomously, in squadron formation."
+msgstr ""
+
+#: ../../aerial/vr01.rst:20
+msgid "The use of multiple unmanned aerial vehicles in missions such as surveillance, monitoring and searches can make them faster and more likely to succeed. For this, it is necessary that the UAVs communicate with each other and have a control strategy that determines what each one should do. This project includes three fixed-wing UAVs available at the Laboratory of Aerial Robotics at the University of Brasilia, which should be studied and implemented cooperative control techniques in the embedded hardware and software."
+msgstr ""
+
+#: ../../aerial/vr01.rst:24
+msgid "The complete system is constituted by four sub-systems: three aircraft and a base station. The communication between those sub-systems is carried out through communication radios. Each subsystem has its own communication modem and has the ability to communicate directly with any other subsystem."
+msgstr ""
+
+#: ../../aerial/vr01.rst:28
+msgid "Each aircraft has two main components that are worth mentioning. One of them is the autopilot, a device responsible for the acquisition, conditioning and processing of signals from the aircraft's sensors and for controlling the aircraft's actuators. The other is the embedded computer, responsible for data processing, control of the planes (individual control of each plane or cooperative control between the three planes) and for communication with the others sub-systems through the communication radios."
+msgstr ""
+
+#: ../../aerial/vr01.rst:31
+#: ../../aerial/vr01/autopilot/pilot.rst:2
+msgid "Autopilot"
+msgstr ""
+
+#: ../../aerial/vr01.rst:39
+msgid "Embedded computer"
+msgstr ""
+
+#: ../../aerial/vr01.rst:45
+msgid "Modeling"
+msgstr ""
+
+#: ../../aerial/vr01.rst:53
+msgid "References"
+msgstr ""
+
+#: ../../aerial/vr01.rst:55
+msgid "ROCHA, E. M. C. Desenvolvimento de um sistema com veículos aéreos não-tripulados autônomos. Faculdade de Tecnologia, Universidade de Brasília, 2017."
+msgstr ""
+
+#: ../../aerial/vr01.rst:57
+msgid "CORDEIRO, T. F. K. Desenvolvimento de um sistema com veículos aéreos não-tripulados autônomos. Faculdade de Tecnologia, Universidade de Brasília, 2018."
+msgstr ""
+
+#: ../../aerial/vr01.rst:59
+msgid "PITA, H. C. Desenvolvimento de sistema de comunicação multiplataforma para veículos aéreos de asa fixa. Faculdade de Tecnologia, Universidade de Brasília, 2018."
+msgstr ""
+
+#: ../../aerial/vr01.rst:61
+msgid "`PX4 Autopilot User Guide`_ - docs.px4.io"
+msgstr ""
+
+#: ../../aerial/vr01.rst:64
+msgid "`QGroundControl User Guide`_ - qgroundcontrol.com"
+msgstr ""
+
+#: ../../aerial/vr01.rst:67
+msgid "`Ardupilot Docs`_ - ardupilot.org"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/Compass.rst:2
+msgid "Compass Calibration"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/Compass.rst:4
+msgid "All internal and external magnetometers that are connected to the Pixhawk will be configured in the process of calibrating the compass"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/Compass.rst:9
+msgid "Calibration Steps"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/Compass.rst:11
+msgid "Open the app QGroundControl and connect the vehicle by the wire to the computer's usb."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/Compass.rst:12
+msgid "Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Sensors** in the sidebar."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/Compass.rst:13
+msgid "Click the **Compass** sensor button."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/Compass.rst:14
+msgid "Click **OK** to start the calibration."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/Compass.rst:15
+msgid "Place the vehicle in the indicated position of any of the images shown in red (not calibrated) let it stand and wait a moment in the chosen position. Once prompted (the orientation-image turns yellow) rotate the vehicle around the specified axis in either/both directions. Once the calibration is complete for the current orientation the associated image on the screen will turn green."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/Compass.rst:16
+msgid "Repeat the calibration process for all vehicle orientations."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/Compass.rst:20
+msgid "Futher Information"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/Compass.rst:22
+#: ../../aerial/vr01/autopilot/config/firmware.rst:76
+msgid "`PX4 user guide > Firmware`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/Compass.rst:25
+#: ../../aerial/vr01/autopilot/config/mounting.rst:103
+msgid "`QGroundControl user guide > Sensors`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/Compass.rst:28
+#: ../../aerial/vr01/autopilot/config/firmware.rst:80
+msgid "`PX4 Setup Video`_ (Youtube)"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:2
+msgid "QGroundControl"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:6
+msgid "QGroundControl is one of the main Ground Control Station (GCS) currently available to work with autopilots compatible with MAVLink, including PX4 and ArduPilot."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:10
+msgid "To implement this project, QGroundControl was chosen as GCS because it provides easy and direct use for beginners, in addition to offering experienced users support for advanced features in complete flight control and vehicle configurations with PX4."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:14
+msgid "Moreover, QGroundControl is one of the most stable ECSs in relation to the others, has a simple and efficient interface and is available in several operating systems, such as Windows, Mac OS X, Linux, Android and iOS."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:17
+msgid "System Requirements"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:21
+msgid "QGroundControl can run normally on most modern computers. A computer with an i5 and at least 8 GB of RAM will perform well for all applications in the program. For a better experience, it is advisable to have the operating system in its latest stable version."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:24
+msgid "Installation"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:26
+msgid "**Windows**"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:28
+msgid "Install QGroundControl for 64-bit versions of Windows Vista or later:"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:30
+msgid "Download the installer `QGroundControl.exe <https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe>`_"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:31
+msgid "Double-click the downloaded executable to open the installer"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:33
+msgid "**Mac OS X**"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:35
+msgid "Installing QGroundControl on Mac OS 10.10 or later:"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:37
+msgid "Download `QGroundControl.dmg <https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg>`_"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:38
+msgid "Double-click the downloaded .dmg file"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:39
+msgid "Move your the $ QGroundControl application to your *Application* folder"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:41
+msgid "**Ubuntu**"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:45
+msgid "Ubuntu has a **serial modem manager** that interferes with applications involving robotics that use a serial (or USB serial) port. Before installing **QGroundControl**, is necessary to remove such **serial modem manager** and grant its user the permissions to access the serial port. You also need to install GStreamer to enable video streaming."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:47
+msgid "Before installing QGroundControl for the first time:"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:49
+msgid "On the command prompt type:"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:57
+msgid "Logout and login again to enable the change to user permissions."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:59
+msgid "To install QGroundControl for Ubuntu Linux 16.04 LTS or later:"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:61
+msgid "Download `QGroundControl.AppImage <https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage>`_"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:62
+msgid "Install and run Install using the terminal commands:"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:71
+msgid "The last command line is not necessary if the user goes to the file manager, search for the downloaded QGroundControl file and double-click it."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:73
+msgid "**Android**"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:75
+msgid "QGroundControl is available from the Google Play Store on `QGroundControl - play.google.com <https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrol>`_ ."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:77
+msgid "**IOS**"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/QGroundControl.rst:79
+msgid "QGroundControl is available from the App Store."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/airframe.rst:2
+msgid "Airframe"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/airframe.rst:6
+msgid "After installing the firmware, is necessary to configure the firmware parameters for the specific structure of your vehicle."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/airframe.rst:9
+msgid "Set the Airframe"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/airframe.rst:13
+msgid "With QGroungControl booted and the controller connected to the computer, select the gear icon (**Vehicle Setup**)  in the top toolbar and then select **AirFrame** in the sidebar."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/airframe.rst:19
+msgid "Select the vehicle group that corresponds to the aircraft structure and then use the dropdown menu within the group to choose the aircraft that best matches your vehicle."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/airframe.rst:27
+msgid "Click **Apply and Restart**. Click **Apply** in the following prompt to save the settings and restart the vehicle."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/airframe.rst:33
+#: ../../aerial/vr01/autopilot/config/firmware.rst:74
+msgid "Mais informações"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/airframe.rst:35
+msgid "`PX4 user guide > Airframe`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/airframe.rst:37
+msgid "`QGroundControl user guide > Airframe`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/automatic_landing.rst:2
+msgid "Automatic Landing"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/automatic_landing.rst:6
+msgid "After the connection of LIDAR to the system via PWM, some parameters of the autopilot must be changed so that it recognizes the sensor. These parameters can be easily changed using QGroundControl. It's them:"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/automatic_landing.rst:15
+msgid "RNG_FND = 5, indicates that the connection occurs via PWM."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/automatic_landing.rst:17
+msgid "RNDFND_MAX_CM = 4000, represents the maximum distance the sensor is reliable."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/automatic_landing.rst:19
+msgid "RNDFND_STOP_PIN = 55, indicates the pin connected to the Lidar activation signal. Allows the device to reset the sensor if it stops providing data."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/automatic_landing.rst:21
+msgid "The parameters RNDFND_SCALING and RNDFND_OFFSET must be adjusted in order to calibrate the sensor (they are usually approximately 0 and 1, respectively)."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/automatic_landing.rst:28
+msgid "The sensor can be tested by QGroundControl, where readings can be observed in **Sonar Range** tab. After setting up the sensor, the autopilot will be able to land the aircraft much more quickly and accurately. The landing takes place by sending the command **Land** to the controller, but for it to occur correctly, the landing strip position must be defined and the landing parameters must be adjusted, such as the speed at which the airplane must land ."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/automatic_landing.rst:30
+msgid "Detailed documentation on automatic landings can be found at `Automatic Landing`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:2
+msgid "Connections"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:6
+msgid "The image below shows the connections of the sensors and other items included in the Pixhawk. Each part will be analyzed in more detail in the following sections."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:12
+msgid "Buzzer and Safety Switch"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:16
+msgid "The buzzer provides audible signals that indicate the situation of the UAV. While the switch operates in the safety of the aircraft, locking and unlocking the engines."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:19
+msgid "The safety switch is activated by default and when activated, it does not allow flight, blocking the engines. To disable safe mode, press and hold the switch for 1 second. You can activate safe mode again by pressing the switch."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:23
+msgid "To connect the buzzer and the safety switch (required items), simply connect them to the Pixhawk as shown below."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:29
+msgid "Slitter I2C"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:33
+msgid "The I2C slitter expands the number of I2C ports allowing the connection of up to four peripherals to the Piwhawk. Use a 4-wire cable to connect the I2C slitter and to power an external compass, an LED display, a digital air speed sensor and/or any other peripheral compatible to the vehicle."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:36
+msgid "Airspeed Sensor"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:38
+msgid "Em edição..."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:43
+msgid "GPS + Compass"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:47
+msgid "The GPS, another indispensable device, must be connected to the GPS port (6-pin) using the 6-wire cable provided in the kit.  The compass connection is optional, but strongly recommend its use. To connect it, connect a 4-wire cable to an I2C port on the I2C slitter, as shown below."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:52
+msgid "The GPS/Compass should be mounted on the aircraft's chassis as far away from other electronic components as possible, with the indicator arrow facing forward and as aligned as possible with the Pixhawk."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:55
+msgid "Radio Control (RC)"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:59
+msgid "The radio control (RC) system is necessary if you want to manually control your vehicle, as the Pixhawk does not require a radio system for autonomous flight modes."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:63
+msgid "To connect the radio control system, is necessary need to select a compatible transmitter/receiver and then link it up so that they can communicate."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:66
+msgid "Read the instructions that came with your transmitter/receiver."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:70
+msgid "The following instructions show how to connect the different types of receivers to the Pixhawk:"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:72
+msgid "Spektrum and DSM receivers connect to the SPKT/DSM input."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:76
+msgid "PPM-SUM and S.BUS receivers connect to ground, power and RC signal pins, as shown."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:80
+msgid "The PPM and PWM receivers that have an individual wire for each channel must connect to the RC port via a PPM encoder (PPM-Sum receivers use a single signal wire for all channels)."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:82
+msgid "For more information on selecting a radio system, receiver compatibility, and connecting your transmitter and receiver pair, see: `Remote control transmitters and receivers`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:87
+msgid "Telemetry"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:91
+msgid "Telemetry modems can be used to communicate and control a vehicle in flight from an ground station (for example, you can direct the UAV to a specific position or load a new mission). A modem must be connected to your vehicle, as shown below. Another modem must be connected to the ground station computer or mobile device (usually via a USB port)."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:96
+msgid "Power Module"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:100
+msgid "The **Power module** (PM) supplies power to the battery flight controller and also sends information about the analog current and voltage supplied by the module (including power to the flight controller and motors, etc.)."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:104
+msgid "The output of the power module (PM) must be connected to the Pixhawk ** POWER ** port using a 6-wire cable, as shown in the image. The input module must be connected to a battery Po, while the main output will be responsible for supplying power to the ESCs and the aircraft engine (possibly through a power distribution board, depending on the aircraft)."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:109
+msgid "Distance Sensor"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:113
+msgid "Pixhawk supports several different distance sensors, including Lidars (which use lasers or infrared rays for distance measurements) and Sonars (which use ultrasonic waves), and also include the Maxbotix Sonar and Pulsed Light LED range finders. Therefore, the installation varies from device to device. More information about the sensor configuration can be seen in `Rangefinders`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:120
+msgid "Example of some compatible distance sensors"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:126
+msgid "To implement the project, the Lidar sensor was chosen to enable the automatic landing function due to its greater accuracy compared to the others. Lidar sensor can be connected to the Pixhawk in two ways, via the I2C protocol on the I2C port (or I2C slitter) or by pulse-width-modulation (PWM) on the PWM track."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:130
+msgid "According to the Pixhawk documentation, the Lidar used presents interference problems with other devices when connected to the I2C port. Thus, the PWM connection was chosen. A connection diagram can be seen in the table below and the assembly diagram can be seen in the following figure, where the value of the resistor can vary between 200Ω and 1kΩ [1] _."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:132
+msgid "Connection diagram between Lidar and Pixhawk"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:135
+msgid "Sinal LIDAR-Lite"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:135
+msgid "Sinal Pixhawk"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:137
+msgid "J1"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:137
+msgid "CH6 Out - V+"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:138
+msgid "J2"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:138
+msgid "CH6 Out - Signal (sinal interno 55)"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:139
+msgid "J3"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:139
+msgid "CH5 Out - Signal (sinal interno 54)"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:140
+msgid "J4"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:141
+msgid "J5"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:142
+msgid "J6"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:142
+msgid "Ch6 Out - Ground"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:150
+msgid "More details about the connection can be found in `LIDAR-Lite Rangefinder`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:156
+#: ../../aerial/vr01/autopilot/config/mounting.rst:95
+msgid "More information"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:158
+msgid "`Pixhawk Wiring Quick Start - PX4 User Guide`_"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:161
+msgid "`Basic Assembly - PX4 User Guide`_"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:164
+msgid "`Pixhawk Series - PX4 User Guide`_"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:167
+msgid "`Peripheral Hardware - Ardupilot Docs`_"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/connection.rst:172
+msgid "Eduardo Moura Cirilo Rocha. 2017. Desenvolvimento de um sistema com veículos aéreos não-tripulados autônomos, Universidade de Brasília, Brasil"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/firmware.rst:2
+msgid "Firmware"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/firmware.rst:6
+msgid "The installation of the firmware on the flight controller hardware can be done in two ways, by using an Ground Control Station (GCS) program or directly by using developer tools without using an auxiliary program. An GCS is a software application that runs on a ground computer and communicates with the vehicle through the use of wireless telemetry."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/firmware.rst:10
+msgid "The main GCS's available are Mission Planner, APM Planner 2, MAVProxy, QGroundControl and UgCS. To implement this project, QGroundControl was chosen because it provides easy and direct use for beginners, good documentation, a more stable program in relation to the others and also offers advanced features for experienced users."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/firmware.rst:14
+msgid "Before starting this section, it is recommended to download and install QGroundControl on your computer."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/firmware.rst:22
+msgid "The official QGroundControl documentation is available at `QGroundControl`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/firmware.rst:29
+msgid "Instalação estável"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/firmware.rst:33
+msgid "We recommend using the latest version of PX4 in order to benefit from bug fixes and get the best and latest features."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/firmware.rst:36
+msgid "Before installing the firmware, all USB connections of the vehicle must be disconnected and the vehicle must not be powered by a battery."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/firmware.rst:43
+msgid "Select the *Gear* icon (**Vehicle Setup**) on the top toolbar, then select **Firmware** on the sidebar."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/firmware.rst:49
+msgid "Connect the flight controller directly to your computer via USB (do not connect through a USB hub)."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/firmware.rst:54
+msgid "Select the PX4 Flight Stack X.x.x Release option to install the latest stable version of PX4 for your hardware (autodetected)."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/firmware.rst:60
+msgid "Click **OK** to start the installation."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/firmware.rst:67
+msgid "The firmware will then proceed a several number of upgraee steps (download the new firmware, erasing old firmware version, etc.). The overall progress is displayed in a progress bar."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/firmware.rst:71
+msgid "Once the firmware has completed loading, the device will reboot and reconnect."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/firmware.rst:78
+msgid "`QGroundControl user guide > Firmware`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/firmware.rst:85
+#: ../../aerial/vr01/autopilot/pilot.rst:249
+msgid "Eduardo Moura Cirilo Rocha. 2017. Desenvolvimento de um sistema com veículos aéreos não-tripulados autônomos, Universidade de Brasília, Brasil."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:2
+msgid "Mounting the Pixhawk"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:7
+msgid "Autopilot Orientation"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:11
+msgid "By default, the flight controller and the external compass should be placed on the aircraft frame oriented so that the arrow points towards the front of the vehicle. If the card or external compass are in any other direction, you need to correct the orientation in firmware."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:14
+msgid "Calculating Orientation"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:18
+msgid "The compensations for the rotation angles `YAW, PITCH and / or ROLL`_ are calculated in relation to the vertical orientation pointing forward (clockwise rotation around the Z, Y and X axes, respectively). This diagram is called body frame and the default orientation is given by ``ROTATION_NOME``."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:26
+msgid "For example, the image below shows aircraft rotations around the z axis (YAW), corresponding, respectively, to: ``ROTATION_NONE``, ``ROTATION_YAW_90``, ``ROTATION_YAW_180``, ``ROTATION_YAW_270``."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:32
+msgid "Setting the Orientation"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:36
+msgid "To set the orientations on firmware:"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:39
+msgid "Before setting the orientation, QGroundControl must be started, connected to the vehicle and the firmware must have already been installed on the flight controller board."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:43
+msgid "Select the **Gear** icon (Vehicle Setup) in the top toolbar and then Sensors in the sidebar."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:49
+msgid "Select the **Set Orientations** button."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:55
+msgid "Select the autopilot orientation, as calculated above."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:61
+msgid "Select the **External Compass Orientation** in the same way (this option will only be displayed if your vehicle has an external compass)."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:63
+msgid "Press **OK**."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:68
+msgid "Complete documentation on how to adjust the autopilot orientation is available in `Autopilot Orientation`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:73
+msgid "Vibration Isolation"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:77
+msgid "Pixhawk boards have built-in accelerometers and gyroscopes, being sensitive to vibrations. High levels of vibration can cause a number of problems, including reduced flight performance, shorter flights and increased vehicle wear. In extreme cases, vibration can lead to sensor failures, resulting in estimation errors or even flight interruption."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:81
+msgid "For this reason, the Pixhawk comes with *vibration damping foams*."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:87
+msgid "The Pixhawk must be mounted on the aircraft using the anti-vibration foams included in the kit. It should be positioned as close as possible to the vehicle's center of gravity."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:90
+msgid "To determine whether the vibration levels are too high and use some techniques to improve the vibration characteristics, recommended to the topic `PX4 user guide > Vibration Isolation`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:97
+msgid "`Advanced Orientation Tuning`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:100
+msgid "`PX4 user guide > Sensor Orientation`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config/mounting.rst:106
+msgid "`PX4 user guide > Vibration Isolation`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config_pilot.rst:2
+msgid "Autopilot Configuration"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config_pilot.rst:8
+msgid "The Pixhawk's preparation for flight essentially consists of installing the firmware on the device, connecting and calibrating the sensors and mounting on the aircraft structure."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/config_pilot.rst:12
+msgid "This section contains essential configuration topics:"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:10
+msgid "This topic consists of a summary of the information available on the page `Getting Started - PX4`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:14
+msgid "Introduction"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:18
+msgid "PX4 is the professional open source autopilot, developed by both world-class developers from industry and academia, and supported by the active world wide community. The PX4 can run on multiple flight controll boards. Deserving highlight flight open hardware controllers of the `PixHawk`_ series, running PX4 on `NuttX OS`_ [1]_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:22
+#: ../../aerial/vr01/autopilot/pilot.rst:43
+msgid "Given the options available on the market, Pixhawk 1 was chosen as an autopilot for its best cost benefit for the project."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:32
+msgid "The Pixhawk operate in several types of vehicle, from racing drones and cargo to land and submersible vehicles. In this article we will focus on aircraft application, where the Pixhawk operate as a general use flight controller, responsible for the acquisition, conditioning and processing of signals from the aircraft's sensors and for controlling the aircraft's actuators."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:37
+msgid "Pixhawk offers a development environment compatible with Unix and Linux systems, favoring the development of software applications. The Pixhawk system has `multithreading`_ capabilities, that is, it can perform several tasks simultaneously without interfering with the other through the sharing of process resources. Moreover, it has integrated autopilot functions with detailed logs missions and flight behavior [2]_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:46
+msgid "Basic Concepts"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:52
+msgid "This topic introduces some basics concepts about unmanned aerial vehicles (UAV) and the use of PX4 platform."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:56
+msgid "Unmanned Aerial Vehicle (UAV or drone)"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:60
+msgid "A UAV is any types of aircraft that can be controlled on the 3 axes of freedom and do not need a pilot on board to be guided, being able to be controlled remotely or autonomously."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:64
+msgid "The \"brain\" of a drone is called autopilot, an instrument responsible for controlling the aircraft's flight path. Referring to UAVs, the autopilot consists of flight control software running on specific hardware for the same function."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:67
+msgid "Ground Control Station (GCS)"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:71
+msgid "A Ground Control Station (GCS) is a control platform, usually a software application running on a computer on the ground, which communicates with UAVs for wireless telemetry and provides human operators control of the aircraft."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:75
+msgid "The ground station delivers to the controller several data in real time on the performance and position of UAVs and can even serve as a \"virtual cockpit\", providing many of the same instruments that a pilot would have if he were flying an airplane. However, Ground Control  software is normally used for planning, uploading flight missions and defining flight parameters."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:79
+msgid "There are more than ten different ground control stations. In the area of UAV control, the main controllers are Mission Planner, APM Planner 2, MAVProxy, QGroundControl e UgCS. For Tablet / Smartphone, there is Tower (DroidPlanner 3), MAVPilot, AndroPilot e SidePilot. [4]_"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:84
+msgid "Dronecode Platform"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:88
+msgid "PX4 is part of the `Dronecode Plataform`_, a complete platform for drone development, under an open source license the community. It includes, among other things, the `PX4`_ flight stack, `QGroundControl`_ ground control station, the `Dronecode SDK`_ and the `Dronecode Camera Manager`_. [3]_"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:99
+msgid "Sensors"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:103
+msgid "The PX4 based system uses several sensors to determine vehicle state (these being essential for stabilization and to enable autonomous control). The vehicle states include: position, heading, speed, airspeed, orientation (attitude), rates of rotation in different directions, battery level, etc."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:107
+msgid "The system minimally requires a gyroscope, accelerometer, magnetometer (compass), barometer and an airspeed sensor for the case of fixed wing (project case). A GPS or other positioning system is also required to activate all automatic modes and some assisted modes."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:111
+msgid "Pixhawk series flight controllers come with a minimum set of sensors incorporated. Additional/external sensors can be connected to the controller."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:114
+msgid "GPS & Compass"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:118
+msgid "The PX4 supports several receivers and compasses (magnetometers) of the Global Navigation Satellite System (GNSS). It also supports Real Time Kinematic (RTK) GPS Receivers, optimizing GPS systems to centimeter level accuracy."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:125
+msgid "Pixhawk series controllers include an *internal* compass, but we recommend using an external Compass + GPS module, which is mounted as far as possible from power supply lines to reduce electromagnetic interference."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:129
+msgid "The PX4 supports the connection of up to 4 internal or external magnetometers, although only one will actually be used as a heading source. The system automatically chooses the best available compass based on their internal priority (external magnetometers have a higher priority). If the primary compass fails in-flight, it will failover to the next one. If it fails before flight, arming will be denied."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:133
+msgid "More information and the list of supported GPS/Compass can be found at `GPS/Compass`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:142
+msgid "Airspeed"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:148
+msgid "Airspeed sensors are highly recommended for the safe operation of a fixed wing UAV or VTOL (Vertical Take-Off and Landing)."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:153
+msgid "The flight of a fixed wing UAV depends on the airspeed, since this guarantees its support in flight and not  the speed in relation to the ground. The autopilot has no other means to detect stall (loss of lift of the aircraft), for this reason air speed sensors are highly recommended."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:157
+msgid "More information and the list of supported Airspeed sensors can be found at `Airspeed sensors`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:164
+msgid "Distance (telemeter)"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:168
+msgid "Distance sensors provide real-time distance measurement. It can be optical, when based on a focusing mechanism, or ultrasonic (ecotelemeter or acoustic rangefinder), when using sound reflections. They are used for improved landing behaviour, terrain following, collision prevention, warning of regulatory height limits, etc."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:172
+msgid "The PX4 supports a wide variety of distance sensors, using different technologies and supporting different features. More information and the list of supported distance sensors can be found at More information and the list of supported distance sensors can be found at `Distance sensors`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:179
+msgid "Optica Flow"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:183
+msgid "PX4Flow is an optical flow smart camera that can track motion, and has as integrated sonar sensor. PX4 blends the sensor output with information from other position sources (e.g. GPS) to provide a more accurate position lock. This sensor can be used indoors, when no GPS signal is available."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:187
+msgid "Most of its applications are directed to rotary-wing aircraft."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:190
+msgid "Pixhawk specifications"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:192
+msgid "**Processor**"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:194
+msgid "32-bit ARM Cortex M4 core with FPU"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:195
+msgid "168 Mhz/256 KB RAM/2 MB Flash"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:196
+msgid "32-bit failsafe co-processor"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:198
+msgid "**Sensors**"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:200
+msgid "MPU6000 as main accel and gyro"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:201
+msgid "ST Micro 16-bit gyroscope"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:202
+msgid "ST Micro 14-bit accelerometer/compass (magnetometer)"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:203
+msgid "MEAS barometer"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:205
+msgid "**Power**"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:207
+msgid "Ideal diode controller with automatic failover"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:208
+msgid "Servo rail high-power (7 V) and high-current ready"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:209
+msgid "All peripheral outputs over-current protected, all inputs ESD protected"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:212
+msgid "**Interface**"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:214
+msgid "5x UART serial ports, 1 high-power capable, 2 with HW flow control"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:216
+msgid "Spektrum DSM/DSM2/DSM-X Satellite input"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:217
+msgid "Futaba S.BUS input (output not yet implemented)"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:218
+msgid "PPM sum signal"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:219
+msgid "RSSI (PWM or voltage) input"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:220
+msgid "I2C, SPI, 2x CAN, USB"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:221
+msgid "3.3V and 6.6V ADC inputs"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:223
+msgid "**Dimensions**"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:225
+msgid "Weight 38 g (1.3 oz)"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:226
+msgid "Width 50 mm (2.0”)"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:227
+msgid "Height 15.5 mm (.6”)"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:228
+msgid "Length 81.5 mm (3.2”)"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:230
+msgid "**Included items**"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:232
+msgid "1 x SanDisk Ultra micro SD Card (8GB)"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:233
+msgid "1 x MRC0225- Cable [3-Pins DF-13] to Switch+LED"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:234
+msgid "1 x MRC0224- Cable [2-Pins DF-13] to Buzzer"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:235
+msgid "1 x I2C Splitter"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:236
+msgid "2 x MRC0213- Cable [6-Pins JST-GH] to [6-Pins DF-13], (Telemetry Radio, Power module and Extra)"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:237
+msgid "1 x MRC0216- Cable [6-Pins DF-13] to [6-Pins DF-13], (For legacy products)"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:238
+msgid "4 x Damping Foams"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:239
+msgid "3 x Decals \"APM Rover\", \"APM Copter\" and \"APM Plane\""
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:243
+msgid "`PX4 Autopilot User Guide`_. docs.px4.io"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:246
+msgid "Para mais informações a respeito de `Multithreading (arquitetura computacional)`_."
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:251
+msgid "`Choosing a Ground Station - Conter documentation`_. ardupilot.org"
+msgstr ""
+
+#: ../../aerial/vr01/autopilot/pilot.rst:254
+msgid "`Dronecode Platform, Basic Concepts, PX4 Autopilot User Guide`_. docs.px4.io"
+msgstr ""
+
+#: ../../aerial/vr01/embedded_system/system.rst:2
+msgid "Embedded System"
+msgstr ""
+
+#: ../../aerial/vr01/embedded_system/system.rst:6
+msgid "Overo WaterStorm"
+msgstr ""
+
+#: ../../aerial/vr01/embedded_system/system.rst:9
+msgid "Especificações"
+msgstr ""
+
+#: ../../aerial/vr01/model/Ranger.rst:2
+msgid "Modelagem"
+msgstr ""
+

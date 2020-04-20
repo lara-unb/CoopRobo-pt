@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Gabriel Araujo
+# This file is distributed under the same license as the CoopRobo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CoopRobo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-20 03:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs-ref.rst:2
+msgid "Documentation"
+msgstr ""
+
+#: ../../docs-ref.rst:4
+msgid "Hi,"
+msgstr ""
+
+#: ../../docs-ref.rst:8
+msgid "The official site for Cooperative Robotics is https://cooprobo.readthedocs.io/ or https://cooprobo.rtfd.io/"
+msgstr ""
+
+#: ../../docs-ref.rst:15
+msgid "This site should contain all documentation towards the hardware, software, modelling and tutorial. This site is builded using the official project repo https://github.com/lara-unb/CoopRobo/"
+msgstr ""
+
+#: ../../docs-ref.rst:22
+msgid "References"
+msgstr ""
+
+#: ../../docs-ref.rst:30
+msgid "About this site"
+msgstr ""
+
+#: ../../docs-ref.rst:28
+msgid "https://readthedocs.org/"
+msgstr ""
+
+#: ../../docs-ref.rst:30
+msgid "https://github.com/RobInLabUJI/ROSLab"
+msgstr ""
+
+#: ../../docs-ref.rst:35
+msgid "About ROS programming"
+msgstr ""
+
+#: ../../docs-ref.rst:35
+msgid "https://github.com/ethz-asl/programming_guidelines/wiki"
+msgstr ""
+
+#: ../../docs-ref.rst:41
+msgid "Best maintainer practices"
+msgstr ""
+
+#: ../../docs-ref.rst:40
+msgid "https://github.com/leggedrobotics/ros_best_practices/wiki"
+msgstr ""
+
+#: ../../docs-ref.rst:41
+msgid "https://github.com/leggedrobotics/ros_best_practices/blob/master/ros_package_template/README.md"
+msgstr ""
+
+#: ../../docs-ref.rst:46
+msgid "Programming tips"
+msgstr ""
+
+#: ../../docs-ref.rst:46
+msgid "https://lara-unb.github.io/dicas-programacao/#/"
+msgstr ""
+
+#: ../../docs-ref.rst:50
+msgid "ReadMe Exemple"
+msgstr ""
+
+#: ../../docs-ref.rst:51
+msgid "https://github.com/Gastd/consensus"
+msgstr ""
+

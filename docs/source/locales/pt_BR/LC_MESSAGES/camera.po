@@ -1,0 +1,244 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Gabriel Araujo
+# This file is distributed under the same license as the CoopRobo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CoopRobo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-20 03:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../camera.rst:2
+msgid "Camera"
+msgstr ""
+
+#: ../../camera.rst:4
+msgid "Visão"
+msgstr ""
+
+#: ../../camera/ur3/hard/robots.rst:2
+msgid "Robots"
+msgstr ""
+
+#: ../../camera/ur3/model/dynamics.rst:2
+msgid "Dynamics"
+msgstr ""
+
+#: ../../camera/ur3/model/kinematics.rst:2
+msgid "Kinematics"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:2
+msgid "System Description"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:6
+msgid "Overview"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:8
+msgid ""
+"The UR3 is a table-top collaborative robot. With its 3 kg payload it is "
+"very capable and its small footprint makes it suitable for limited "
+"workspace situations. With its infinite turn on the end joint, several "
+"activities can be perfomed with grippers attached at robot tool "
+"connector."
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:10
+msgid "Some of its applications:"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:12
+msgid "Laboratory work"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:13
+msgid "Assembly tasks"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:14
+msgid "Polishing"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:15
+msgid "Soldering"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:16
+msgid "Gluing"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:17
+msgid "Screwing"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:18
+msgid "Painting"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:19
+msgid "Pick and place"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:20
+msgid "Operating hand tools"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:21
+msgid "Fume hood tasks"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:25
+msgid "Description"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:26
+msgid "UR3 Description"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:30
+msgid "Weight"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:31
+msgid "11.2 kg"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:32
+msgid "Payload"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:33
+msgid "3 kg"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:34
+msgid "Reach"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:35
+msgid "500 mm"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:36
+msgid "Footprint"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:37
+msgid "Ø 128 mm"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:38
+msgid "Degrees of freedom"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:39
+msgid "6 rotating joints"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:40
+msgid "Joint ranges"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:41
+msgid "+/- 360°, infinite rotation on end joint"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:42
+msgid "Speed wrist joints"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:43
+msgid "360 degrees/sec"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:44
+msgid "Other joints"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:45
+msgid "180 degrees/sec."
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:46
+msgid "Noise"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:47
+msgid "Comparatively noiseless"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:48
+msgid "IP classification"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:49
+msgid "IP64"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:61
+msgid "Communication"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:63
+msgid "TCP/IP 100 Mbit: IEEE 802.3u, 100BASE-TX"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:64
+msgid "Ethernet socket & Modbus TCP"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:68
+msgid "Control Box"
+msgstr ""
+
+#: ../../camera/ur3/model/sysdes.rst:71
+msgid "Linux PC"
+msgstr ""
+
+#: ../../camera/ur3/soft/ros.rst:2
+msgid "ROS"
+msgstr ""
+
+#: ../../camera/ur3/tuto/lab1.rst:2
+msgid "Lab 1"
+msgstr ""
+
+#: ../../camera/x.rst:2
+msgid "x"
+msgstr ""
+
+#: ../../camera/y.rst:2
+msgid "y"
+msgstr ""
+
+#: ../../camera/y.rst:8
+msgid "Modelling"
+msgstr ""
+
+#: ../../camera/y.rst:16
+msgid "Hardware"
+msgstr ""
+
+#: ../../camera/y.rst:22
+msgid "Software"
+msgstr ""
+
+#: ../../camera/y.rst:28
+msgid "Tutorials:"
+msgstr ""
+
+#: ../../camera/z.rst:2
+msgid "z"
+msgstr ""
+

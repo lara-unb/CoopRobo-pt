@@ -1,0 +1,583 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Gabriel Araujo
+# This file is distributed under the same license as the CoopRobo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CoopRobo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-20 03:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../manipulators.rst:8
+msgid "Manipulators"
+msgstr ""
+
+#: ../../manipulators.rst:10
+#: ../../manipulators/ur3/hard/robots.rst:2
+msgid "Robots"
+msgstr ""
+
+#: ../../manipulators/meka.rst:2
+msgid "Meka"
+msgstr ""
+
+#: ../../manipulators/schunk.rst:2
+msgid "Schunk"
+msgstr ""
+
+#: ../../manipulators/ur3.rst:2
+msgid "UR3"
+msgstr ""
+
+#: ../../manipulators/ur3.rst:12
+msgid "Modelling"
+msgstr ""
+
+#: ../../manipulators/ur3.rst:20
+msgid "Hardware"
+msgstr ""
+
+#: ../../manipulators/ur3.rst:26
+msgid "Software"
+msgstr ""
+
+#: ../../manipulators/ur3.rst:32
+msgid "Tutorials:"
+msgstr ""
+
+#: ../../manipulators/ur3/model/dynamics.rst:2
+msgid "Dynamics"
+msgstr ""
+
+#: ../../manipulators/ur3/model/kinematics.rst:2
+msgid "Kinematics"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:11
+msgid "System Description"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:15
+msgid "Overview"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:17
+msgid "The UR3 is a table-top collaborative robot. With its 3 kg payload it is very capable and its small footprint makes it suitable for limited workspace situations. With its infinite turn on the end joint, several activities can be perfomed with grippers attached at robot tool connector."
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:19
+msgid "Some of its applications:"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:21
+msgid "Laboratory work"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:22
+msgid "Assembly tasks"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:23
+msgid "Polishing"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:24
+msgid "Soldering"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:25
+msgid "Gluing"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:26
+msgid "Screwing"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:27
+msgid "Painting"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:28
+msgid "Pick and place"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:29
+msgid "Operating hand tools"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:30
+msgid "Fume hood tasks"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:34
+msgid "Specification"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:35
+msgid "UR3 Specification"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:39
+msgid "Weight"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:40
+msgid "11.2 kg"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:41
+msgid "Payload"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:42
+msgid "3 kg"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:43
+msgid "Reach"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:44
+msgid "500 mm"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:45
+msgid "Footprint"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:46
+msgid "Ø 128 mm"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:47
+msgid "Degrees of freedom"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:48
+msgid "6 rotating joints"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:49
+msgid "Joint ranges"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:50
+msgid "+/- 360°, infinite rotation on end joint"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:51
+msgid "Speed wrist joints"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:52
+msgid "360 degrees/sec"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:53
+msgid "Other joints"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:54
+msgid "180 degrees/sec"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:55
+msgid "Noise"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:56
+msgid "Comparatively noiseless"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:57
+msgid "IP classification"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:58
+msgid "IP64"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:61
+msgid "Coordinate System"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:80
+msgid "Communication"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:88
+msgid "There are two main communication gateway in this system."
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:90
+msgid "Foremost, there is a TCP/IP communication port between a LinuxPC and the UR3 Control Box. Basically, it is possible to send ROS commands directly from from Linux Terminal or specialized simulation softwares."
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:92
+msgid "Next, there is a serial communication port between the Control Box and the UR3 Robot. It is responsible for send all the position and velocity commands to the robot."
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:94
+msgid "Some of its specification:"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:96
+msgid "TCP/IP 100 Mbit: IEEE 802.3u, 100BASE-TX"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:97
+msgid "Ethernet socket & Modbus TCP"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:101
+msgid "Control Box"
+msgstr ""
+
+#: ../../manipulators/ur3/model/sysdes.rst:110
+msgid "Linux PC"
+msgstr ""
+
+#: ../../manipulators/ur3/soft/ros.rst:2
+msgid "ROS"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:2
+msgid "Lab 1: First Contact"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:5
+msgid "objective"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:7
+msgid "The new user contacts the ur3 platform and performs a first experiment."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:11
+msgid "Introduction"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:13
+msgid "This lab teaches how to run a code to make a simple move on the ur3 robot using ROS."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:16
+msgid "Procedures to setup the ur3 robot"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:18
+msgid "First, let's turn on the UR3 robot by pressing the POWER button shown in figure 1."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:27
+msgid "Figure 1: Power button"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:29
+msgid "After pressing the power button, the screen like the figure below will appear."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:38
+msgid "Figure 2: Loading screen"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:40
+msgid "After loading the robot system, the screen as the figure below will appear."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:49
+msgid "Figure 3: Apresentation screen"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:51
+msgid "Now, turn on the control box by clicking **Go to the initialization screen**, which is in the center of figure 3."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:53
+msgid "now, we have a screen like figure 4."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:62
+msgid "Figure 4: screen to turn on the robotic arm."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:64
+msgid "The turn on the robot, press the **ON** button. The screen that will appear will be like as in figure 5."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:73
+msgid "Figure 5: start screen."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:75
+msgid "The robot is now on. To unlock the joints, press the **START** button. The robot will make an unlocking sound, which is expected, and will enter the normal operating mode that can be seen in figure 6."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:85
+msgid "Figure 6."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:87
+msgid "Depois disso, aperte **OK** que fica localizado no canto inferior direito da tela (figura 6). Now, a new screen will appear (figure 7) with some options for robot functionality. Let's click on **Program Robot**."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:97
+msgid "Figure 7."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:99
+msgid "Depois de apertar **Program Robot** aparecerá uma tela semelhante a figura 8. Aperte **Move**."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:101
+msgid "Ready. We have completed our robot setup and the final screen is similar to Figure 9."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:110
+msgid "Figure 8."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:119
+msgid "Figure 9."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:122
+msgid "Procedures to setup the Linux PC"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:124
+msgid "Now let's turn on the computer that controls the robot. To do this, connect the LARA computer designated for the UR3 robot. The computer name is **ur3** and password **ur3**."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:128
+msgid "One more thing, the communication will be done using the TCP/IP protocol using cable, so check if the network cable of the Lara-robots router is connected to the ur3 computer."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:131
+msgid "After making the instructions described in the paragraph above, we will download the files that contain the codes for our experiment. To do this, open the application called **Terminator** on the ubuntu 18.04 taskbar, which is exactly like figure 10."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:143
+msgid "Figure 10: Terminator"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:145
+msgid "After opening **Terminator**, we will use the command **git clone** to download the file. Then, type in the Terminator the command (If the file already exists, skip this step):"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:148
+msgid "$ git clone https://github.com/lara-unb/UR3\\_interface.git"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:150
+msgid "The next step is to compile the code to \"run\" on the ur3 computer. To compile the code we will enter the directory, using Terminator, where the executable folders are."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:154
+msgid "With the command shown below you can enter the interface code workspace."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:156
+msgid "$ cd UR3_interface/catkin_ur3"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:158
+msgid "To compile the code use the command:"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:160
+msgid "$ catkin_make"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:162
+msgid "You will receive a message like the one in figure 11 below."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:171
+msgid "Figure 11."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:173
+msgid "The computer setup is ready. In the next step we will learn how to start the ROS (Robot Operating System)."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:176
+msgid "ROS initialization"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:178
+msgid "The demo_1 interface and executables are ready (done in the previous step), now let's start ROS. For that, we will open more sections in Terminator."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:181
+msgid "Open 4 (four) sections as shown in figure 12 below."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:183
+msgid "To split the Terminator you can use Ctrl + shift + O to split horizontally or Ctrl + shift + E to split vertically. Remembering that the new sections have to be in the same workspace."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:193
+msgid "Figure 12."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:195
+msgid "Para iniciar o ROS use o comando:"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:197
+msgid "$ roscore"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:199
+msgid "When ROS is ready, you will receive a message in one of the sections as shown in figure 13 shown below."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:208
+msgid "Figure 13."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:210
+msgid "NOTE: Don't touch the section that ROS is running."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:213
+msgid "Running Demo_1"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:215
+msgid "To run **demo_1**, we will first run the **interface** (Use another section of Terminator). For this, we will configure setup of the ROS package with the following command:"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:218
+msgid "$ source devel/setup.bash"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:220
+msgid "Do this for all sections of the Terminator except for the one running ROS."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:222
+msgid "Now let's \"run\" the interface application. To do this, type the command shown below and press ENTER on one of the Terminator sections."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:225
+msgid "$ rosrun ur3 interface"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:227
+msgid "If everything is working as expected, the message we will get in return for this command is shown below in figure 14."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:237
+msgid "Figure 14."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:239
+msgid "When you have confirmation that the robot is ready (UR3 is ready) we can run demo_1."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:241
+msgid "Now, in another section of Terminator, we will \"run\" the demo-1 application. To do this, type the command shown below and press ENTER."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:244
+msgid "$ rosrun ur3 demo_1"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:246
+msgid "At this point, the robot should start making a repetitive movement and after a few seconds it will stop. After that movement for the robot will have executed demo_1."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:250
+msgid "View topics"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:252
+msgid "Topics are data structures in which the variables of the robot joints are published. In this robot, there are two topics, but for this experiment, we will focus on just one that will be the topic **arm**."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:256
+msgid "In order to observe the data present in the topic **arm**, we will type, in another section of **Terminator** the following command:"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:259
+msgid "$ rostopic echo /arm"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:261
+msgid "Figure 15, shown below, shows the result of this command with its respective variables."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:270
+msgid "Figure 15."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:272
+msgid "You can \"kill\" this command by typing ctrl + C."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:275
+msgid "rqt_plot: Graphical data visualization interface"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:277
+msgid "To have a visualization of the joint data in a graphical interface, we will use the application rqt_plot. This application allows the user to observe that of a variable over time."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:281
+msgid "Given that explanation, let's use the tool. To do this, type the command shown below."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:284
+msgid "$ rqt_plot"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:286
+msgid "Figure 16, shown below, shows the application rqt_plot with one of the variables (joint speed 0 (zero)) being shown over time."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:296
+msgid "Figure 16."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:298
+msgid "To see a particular variable, type/arm/variable[joint number] in Topic below MatPlot."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:301
+msgid "Saving the experiment to a file"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:303
+msgid "To save the data, just type the following command:"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:305
+msgid "$ rosbag record /arm"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:307
+msgid "With this command you will write the data for all topics in a bag file."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:310
+msgid "Turning off Robot and Computer"
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:312
+msgid "To turn the robot off, press the **POWER** button, figure 1, and then click **Power Off**."
+msgstr ""
+
+#: ../../manipulators/ur3/tuto/first_c.rst:314
+msgid "To shut down the computer, close all **Terminator** tabs and shut down Ubuntu normally."
+msgstr ""
+
