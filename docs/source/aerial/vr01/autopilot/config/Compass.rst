@@ -1,23 +1,24 @@
-Compass Calibration
-===================
+Calibração da bússola
+=====================
 
-All internal and external magnetometers that are connected to the Pixhawk will be configured in the process of calibrating the compass
+.. All internal and external magnetometers that are connected to the Pixhawk will be configured in the process of calibrating the compass
 
-.. Todos os magnetômetros internos e externos conectados ao Pixhawk serão configurados no processo de calibração da bússola
-
-Calibration Steps
-~~~~~~~~~~~~~~~~~~
-
-  1. Open the app QGroundControl and connect the vehicle by the wire to the computer's usb.
-  2. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Sensors** in the sidebar.
-  3. Click the **Compass** sensor button.
-  4. Click **OK** to start the calibration.
-  5. Place the vehicle in the indicated position of any of the images shown in red (not calibrated) let it stand and wait a moment in the chosen position. Once prompted (the orientation-image turns yellow) rotate the vehicle around the specified axis in either/both directions. Once the calibration is complete for the current orientation the associated image on the screen will turn green.
-  6. Repeat the calibration process for all vehicle orientations.
+Todos os magnetômetros internos e externos conectados ao Pixhawk serão configurados no processo de calibração da bússola
 
 
-Futher Information
-------------------
+Etapas de calibração
+~~~~~~~~~~~~~~~~~~~~~
+
+  1. Abra o aplicativo QGroundControl e conecte o veículo pelo fio ao usb do computador.
+  2. Selecione o ícone **Engrenagem** (Configuração do veículo) na barra de ferramentas superior e, em seguida, **Sensores** na barra lateral.
+  3. Clique no botão do sensor da **Bússola**.
+  4. Clique **OK** para começar a calibração.
+  5. Coloque o veículo em umas das posições indicadas em vermelho (não calibrada), mantenha essa posição escolhida por alguns instantes. Uma vez solicitado ( a imagem de orientação fica amarela), gire o veículo em torno do eixo especificado nas duas direções. Quando a calibração estiver concluída para a orientação atual, a imagem associada na tela ficará verde. 
+  6. Repita o processo de calibração para todas as orientações do veículo.
+
+
+Mais informações
+-----------------
 
 * `PX4 user guide > Firmware`_.
 .. _PX4 user guide > Firmware: https://docs.px4.io/v1.9.0/en/config/compass.html
