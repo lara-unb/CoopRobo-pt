@@ -60,7 +60,7 @@ Para definir as orientações no firmware:
 .. _Orientação do piloto automático: https://docs.px4.io/v1.9.0/en/config/flight_controller_orientation.html
 
 Isolamento de vibrações
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 As placas Pixhawk possuem acelerômetros e giroscópios embutidos, sendo sensíveis a vibrações. Elevados níveis de vibração podem causar uma série de problemas, incluindo redução do desempenho de voo, voos mais curtos e maior desgaste do veículo. Em casos extremos, a vibração pode levar a falhas dos sensores, resultando em falhas de estimativa ou até mesmo a interrupção do voo.
 
@@ -87,13 +87,14 @@ Mais informações
 ----------------
 
 * `Advanced Orientation Tuning`_.
-.. _Advanced Orientation Tuning: https://docs.px4.io/v1.9.0/en/advanced_config/advanced_flight_controller_orientation_leveling.html
 
 * `PX4 user guide > Sensor Orientation`_.
-.. _PX4 user guide > Sensor Orientation: https://docs.px4.io/v1.9.0/en/config/flight_controller_orientation.html  
 
 * `QGroundControl user guide > Sensors`_.
-.. _QGroundControl user guide > Sensors: https://docs.qgroundcontrol.com/en/SetupView/sensors_px4.html#flight_controller_orientation
 
 * `PX4 user guide > Vibration Isolation`_.
+
+.. _Advanced Orientation Tuning: https://docs.px4.io/v1.9.0/en/advanced_config/advanced_flight_controller_orientation_leveling.html
+.. _PX4 user guide > Sensor Orientation: https://docs.px4.io/v1.9.0/en/config/flight_controller_orientation.html  
+.. _QGroundControl user guide > Sensors: https://docs.qgroundcontrol.com/en/SetupView/sensors_px4.html#flight_controller_orientation
 .. _PX4 user guide > Vibration Isolation: https://docs.px4.io/v1.9.0/en/assembly/vibration_isolation.html#vibration-isolation
