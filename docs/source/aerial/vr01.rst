@@ -48,11 +48,6 @@ Cada aeronave possui dois componentes principais que merecem destaque. Um deles 
 
    vr01/3-gumstix/3.0-intro
    
-.. toctree::
-   :maxdepth: 2
-   :caption: Comunicação Via Modem 
-
-   vr01/4-modem/4.0-intro
    
 
 Referências
