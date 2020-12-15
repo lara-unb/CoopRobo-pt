@@ -1,0 +1,31 @@
+Configuração do Piloto Automatico
+=================================
+
+.. https://docs.px4.io/v1.9.0/en/config/
+
+.. Note::
+   Este topico constém trechos replicados de artigos desenvolvidos no Laboratório de Robótica Aérea - UnB. Os artigos são referenciados no fim deste tópico.
+
+   
+
+A preparação do Pixhawk para voo consiste principalmente em instalar o firmware no dispositivo, conectar e calibrar os sensores e montar na estrutura da aeronave. 
+
+.. The Pixhawk's preparation for flight essentially consists of installing the firmware on the device, connecting and calibrating the sensors and mounting on the aircraft structure.
+
+Esta seção contém os principais tópicos de configuração e montagem:
+
+.. This section contains essential configuration topics:
+
+
+
+.. toctree::
+   :maxdepth: 2
+
+   config/5.1-QGroundControl
+   config/5.2-firmware
+   config/5.3-airframe
+   config/5.4-connection 
+   config/5.5-mounting
+   config/5.6-AutoPilotCalibration
+   config/5.7-automatic_landing
+

@@ -1,0 +1,49 @@
+Sistema obtenção e Gerenciamento de Energia
+===========================================
+
+.. Note::
+   Este topico constém trechos replicados de artigos desenvolvidos no Laboratório de Robótica Aérea - UnB. Os artigos são referenciados no fim deste tópico.
+
+
+
+Esse sistema é composto por todos os dispositivos que se relacionam diretamente com a conversão e manutenção da energia solar em energia elétrica. Toda a energia proveniente das células solares é ordenada, formando um fluxo contínuo de elétrons, sendo portanto de corrente contínua (CC). O sistema fotovoltaico pode ser classificado em "conectado à rede"ou "isolado (ou autônomo)". 
+
+Os sistemas conectados à rede elétrica requerem participação da concessionária de energia, enquanto os sistemas isolados, também chamados de off-grids, em geral utilizam baterias. Para finalidade dos VANTs, é adotado o sistema do tipo isolado, o qual é composto basicamente pelos itens abaixo:
+
+- Painel solar;
+- Controlador de carga;
+- Inversor de corrente off-grid (utilizado apenas quando se deseja alimentar componentes de corrente alternada);
+- Baterias.
+
+
+Para conversão da luz solar em eletricidade é necessária a utilização de módulos fotovoltaicos compostos por células solares, conforme figura 2, em geral produzidas a partir de silício cristalino. O painel solar será composto pela associação em série das células solares, com a finalidade de converter a luz solar em energia elétrica.
+
+O uso de células fotovoltaicas, formando um painel solar na superfície da asa de um VANT pode ser, portanto, um artifício para melhora de autonomia nesses veículos. Entretanto, para que a energia proveniente da luz solar seja convertida e entregue de forma ordenada e eficiente aos subsistemas que compõem ao VANT é necessário uma integração do sistema de gerenciamento de energia solar ao sistema de navegação e controle. As células solares utilizadas no projeto são como a mostrada na figura 2 e têm as especificações mostradas na tabela 1, onde Vmpp e V oc são as tensões de máxima potência e circuito aberto, respectivamente, e, Impp e Isc as correntes de máxima potência e de curto circuito, respectivamente:
+
+.. table:: Especificações da célula Maxeon C60
+
+	===================    ======================================
+	 Características       Valor            
+	===================    ======================================
+		Dimensões            125 x 125 mm            
+		Eficiência           21,8% 
+		Vmpp                 0,574V 
+		Voc                  0,682V                           
+		Impp                 5,83A                            
+		Isc                  6,24A         
+	===================    ======================================
+
+A função dos controladores de carga (ou sistema de gerenciamento de energia) em um sistema fotovoltaico está relacionada com a carga e descarga das baterias, evitando que operem em 4 níveis críticos, mas garantindo que a energia gerada pelo painel seja armazenada nas baterias com maior eficácia.
+
+Os controladores de carga exercem papel fundamental em um sistema fotovoltaico, regulando as cargas e descargas excessivas. Dois principais tipos de tecnologia podem ser empregadas nesse tipo de sistema: PWM (pulse width modulation) e MPPT (maximum power point tracking). Os controladores PWM, mais convencionais, regulam a tensão da bateria por meio da variação da largura dos pulsos de corrente que são fornecidos a ela. Com isso, conforme as baterias se aproximam da carga total, o controlador é capaz de diminuir lentamente a energia aplicada, diminuindo as sobrecargas e prolongando a vida útil das baterias.
+
+Por outro lado, os controladores dotados de algoritmo MPPT, possibilitam rastreamento de ponto de potência máxima ajustando continuamente a impedância percebida para que o sistema fotovoltaico opere no ou próximo ao ponto de máxima potência do painel fotovoltaico mesmo sob variação da irradiação solar, temperatura etc. Esses controladores são capazes de converter o excesso de tensão fornecida pelo painel fotovoltaico em aumento na corrente numa razão de mesma proporção, mantendo dessa forma a mesma potência fornecida. Ao receber 18V das células solares para alimentação da bateria de 12V, o controlador de carga regula essa tensão, de 18V para 12V, de forma a aumentar a corrente na mesma proporção, mantendo a mesma potência. Essa funcionalidade não é observada nos controladores PWM, isto é, qualquer tensão fornecida que excede a alimentação das baterias é desperdiçada.
+
+As baterias de um sistema fotovoltaico devem ser compatíveis com o tipo de finalidade do sistema, isto é, alimentar a carga desejada. Baterias automotivas por exemplo não são desejáveis para essa finalidade uma vez que sua função principal é auxiliar a partida do veículo, fornecendo uma diferença de potencial em um pequeno período de tempo. As baterias utilizadas nesse estudo serão de íon de polímero (Li-Po) Turnigy 5000mAh C20.
+
+
+.. toctree::
+   :maxdepth: 2
+
+   3.1-dimensionamento
+   3.2-associacao

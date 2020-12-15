@@ -1,0 +1,23 @@
+Bateria
+=======
+
+A bateria utilizado no VANT Solar é do modelo (Li-Po) Turnigy 5000mAh C20 de íon de polímero.
+
+.. figure:: /img/Aerial/vantsolar/bateria_vant_solar.png
+   :align: center
+   
+
+   Turnigy 5000mAh 3S 20C LiPo Pack w/XT-60 - Fonte: Hobbyking
+
+- Capacidade: 5000.00 mAh;
+- Máxima taxa de carga: 2.00 C;
+- Descarga: 20.00 c;
+- Altura: 51 mm;
+- Comprimento: 143.00 mm;
+- Largura: 23.00 mm;
+
+
+Referências
+-----------
+
+  * `Turnigy 5000mAh 3S 20C LiPo Pack w/XT-60` - https://hobbyking.com/pt_pt/turnigy-5000mah-3s-20c-lipo-pack-xt-90.html?___store=pt_pt

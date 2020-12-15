@@ -1,0 +1,28 @@
+Motor
+=====
+
+.. figure:: /img/Aerial/vantsolar/motor_dc.png
+   :align: center
+   
+
+   Turnigy Aerodrive SK3 - 3536-1400kv Brushless Outrunner Motor - Fonte: Hobbyking
+
+
+Especificações:
+
+- Acontece: 12T;
+- Voltagem: 3 ~ 4S Lipoly;
+- RPM / V: 1.400 kv;
+- Resistência interna: 0,021 Ohm;
+- Max Loading: 40A;
+- Max Power: 590W;
+- Shaft Dia: 5,0 milímetros;
+- Furos de parafuso: 25mm;
+- Rosca do parafuso: M3;
+- Peso: 110 g;
+- Motor Plug: 3,5 milímetros conector de bala;
+
+Referências
+-----------
+
+	´Turnigy Aerodrive SK3 - 3536-1400kv Brushless Outrunner Motor´ - https://hobbyking.com/pt_pt/turnigy-aerodrive-sk3-3536-1400kv-brushless-outrunner-motor.html

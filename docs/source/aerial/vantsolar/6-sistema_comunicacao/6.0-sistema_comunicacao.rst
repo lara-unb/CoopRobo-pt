@@ -1,0 +1,20 @@
+Sistemas de comunicação
+=======================
+
+.. Note::
+   Este topico constém trechos replicados de artigos desenvolvidos no Laboratório de Robótica Aérea - UnB. Os artigos são referenciados no fim deste tópico.
+
+Para monitoramento e controle das atividades em vôo se faz necessário uso de uma Estação de Controle Terrestre (ECT) por meio do protocolo de comunicação MAVLink, Micro Air Vehicle Communication Protocol, especialmente para uso em veículos aéreos de pequeno porte. Uma ECT é uma aplicação de software para uso em computador capaz de se comunicar com um VANT por meio da telemetria, mostrando os dados obtidos em tempo real pelo piloto automático. Por meio desse monitoramente, é possível a tomada de decisão para executar ações no VANT por meio da telemetria.
+
+O protocolo MAVLink é capaz de enviar estruturas de dados, no formato de sequência de bytes, em canais seriais para a estação de controle em terra. Esses dados são recebidos pelo piloto automático ou pela estação de controle por meio de conexão USB ou por comunicação por telemetria. Após o recebimentos desses dados, o software da ECT é responsável pela decodificação dos mesmos permitindo a interpretação do operador.
+
+As principais ECTs disponíveis são o MissionPlanner, APM Planner e QGroundControl. Neste trabalho a ECT utilizada será a MissionPlanner devido a vasta biblioteca de material introdutório bem como suporte de outros estudantes. Também no sistema de Navegação, foi implementado modo de vôo com FPV, first person view, com observação em primeira pessoa na estação de controle. A transmissão de vídeo para a estação é feita independente do piloto automático, sua alimentação é feita diretamente na bateria e é transmitida através de receptores na faixa de 5,8 GHz.
+
+
+Referências
+-----------
+
+* GOMES, D. H. Configuração e estudo do sistema de gerenciamento de energia, navegação e controle como parâmetros ótimos na montagem e desempenho de um VANT com painéis solares. Faculdade de Tecnologia, Universidade de Brasília, 2019.
+
+* ROCHA, Eduardo M. C, (2017). Desenvolvimento de um sistema com veículos aéreos nãotripulados autônomos, Universidade de Brasília, Trabalho de Graduação 1.
+

@@ -1,0 +1,28 @@
+Simulações Numéricas no XFRL5
+=============================
+
+.. Note::
+   Este topico constém trechos replicados de artigos desenvolvidos no Laboratório de Robótica Aérea - UnB. Os artigos são referenciados no fim deste tópico.
+
+   
+
+
+Usando os conjuntos de pontos do perfil Clark-Y smoothed e, com o auxílio do software XFRL5 V6.47, é possível obter, através de simulações numéricas, vários parâmetros aerodinâmicos pertinentes do perfil. Para a realização dessas simulações, além das coordenadas do perfil, é preciso inserir o número de Reynolds. O número de Reynolds, abreviado por Re, é um número adimensional considerado um dos parâmetros mais importantes para a mecânica dos fluídos e representa, fisicamente, a razão entre forças inerciais e forças de viscosidade (ANDERSON Jr, 2010).
+
+O valor da viscosidade cinemática é tabelado para vários tipos de escoamento, inclusive o ar. Usando os valores tabelados em (CENGEL; GHAJAR, 2009), considerando a temperatura média de Brasília de 25◦C, obtivemos que o valor da viscosidade cinemática é ν = 1, 562 · 10−5 m2/s. O valor de l pode ser considerado como o valor da corda da asa estudada, nesse caso, l = 0, 32 m. Sabendo que a velocidade do fluído, para esse caso, pode ser considerada a mesma do aeromodelo, consideramos duas velocidades principais para o projeto: a de decolagem e a de voo em cruzeiro. Ambas foram determinadas através de voos testes com o aeromodelo acoplado a asa de fábrica. Assim, para a decolagem, tem-se um valor médio de 12 m/s e de 17 m/s para o voo horizontal e nivelado.
+
+Para decolagem, onde V = 12 m/s, o número de Reynolds é ReDecolagem = (12 · 0, 32)/(1, 562 · 10−5 ) ≈ 245.800. Para o voo horizontal e nivelado de cruzeiro, Recruise = (17 · 0, 32)/(1, 562 · 10−5 ) ≈ 348.200.
+
+Assim, temos uma faixa de número de Reynolds para a análise numérica. Determinou-se que a simulação fosse feita para ângulos de ataques variando entre -3o e 25o e para valores de Reynolds iguais a 245.000 e 349.000.
+
+Usando um nível eletrônico, mediu-se o ângulo no aeromodelo e percebeu-se que sua fuselagem estava inclinada 8o em relação ao solo, e a asa original a 13o . Essa configuração será avaliada durante a corrida para decolagem. Um avião de trem de pouso convencional precisa ganhar velocidade durante a corrida de decolagem para que a força de sustentação levante a parte de trás da aeronave, atingindo assim um ângulo de 0o em relação ao solo, para então, poder fazer o movimento de levantar o nariz do avião (HOMA, 2010). Uma razão de extrema importância é a Cd/Cl, que é a razão entre o coeficiente de sustentação pelo coeficiente de arrasto. Essa razão, quando máxima, indica o valor onde tem-se a maior eficiência em voo, que não necessariamente se assemelha ao valor de máximo Cl. Como buscamos a maior eficiência energética em voo, queremos uma configuração de voo que tenha o menor arrasto possível, solicitando menos potência do motor.
+
+Outro parâmetro importante a ser analisado é a máxima autonomia de voo, que é definida fisicamente, pela razão Cl1,5/Cd em seu ponto de máximo. Esse valor é obtido quando a componente vertical de um voo planado é mínima e, através de manipulação do software XFRL5, é possível obter uma curva da razão Cl1,5/Cd pelo ângulo de ataque.
+
+Em posse dos valores dos ângulos de ataque para a decolagem e do ângulo de ataque para razão Cd/Cl máxima, faremos duas simulações, agora não apenas com o perfil, mas com a asa completa (Ver seção 4.2). Nessa análise serão levados em consideração três parâmetros comuns no estudo de escoamento em uma asa finita: o arrasto induzido, o efeito de downwash e a sustentação.
+
+
+Referências
+===========
+
+ * PEREIRA, G. H. S. Análise de parâmetros aerodinâmicos e configuração de sistemas de comunicação e captação de imagem para um VANT com painéis solares nas asas. Faculdade de Tecnologia, Universidade de Brasília, 2019.

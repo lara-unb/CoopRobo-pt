@@ -1,0 +1,25 @@
+SERVOS
+======
+
+
+.. figure:: /img/Aerial/vantsolar/servo.png
+   :align: center
+   
+
+   Volantex RC 757323 Ranger EX Servo 9G Metal Gear- Fonte: Amazon
+
+
+Especificações:
+
+- Product Dimensions : 15.08 x 10 x 1.27 cm; 14.51 Grams
+- Date First Available : 21 August 2017
+- Manufacturer : HRP Distributing, Inc.
+- ASIN : B016N411HC
+- Item model number : VLX757323
+- Manufacturer : HRP Distributing, Inc.
+- Item Weight : 14.5 g
+- Item Dimensions LxWxH : 15.1 x 10 x 1.3 Centimeters
+
+Referências
+-----------
+* Volantex RC 757323 Ranger EX Servo 9G Metal Gear - https://www.amazon.in/Volantex-757323-Ranger-Servo-Metal/dp/B016N411HC

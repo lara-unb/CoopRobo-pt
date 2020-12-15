@@ -1,0 +1,26 @@
+Comportamento Aerodinâmico da Asa
+=================================
+
+.. Note::
+   Este topico constém trechos replicados de artigos desenvolvidos no Laboratório de Robótica Aérea - UnB. Os artigos são referenciados no fim deste tópico.
+
+   
+
+A simulação numérica da asa abordou dois momentos crítico para o voo: a decolagem e o voo horizontal. Os resultados das simulações dos perfis permitiram avaliar o comportamento da asa em determinadas velocidade e atitude, que serão expostos nessa seção.
+
+.. figure:: /img/Aerial/vantsolar/comportamento_aero_1.png
+   :align: center
+   
+
+   Simulação numérica da asa para operação de decolagem para (a) ângulo de ataque de 13o e velocidade de 6 m/s e (b) para ângulo de ataque de 5o a velocidade de 12 m/s
+
+
+A Figura Simulação numérica da asa para operação de decolagem apresenta os três parâmetros (arrasto induzido, o efeito de downwash e a sustentação) durante a decolagem. Na imagem (a), é representado o momento quando a quilha do avião está tocando o solo, ou seja, um ângulo de ataque de 13o em uma velocidade escolhida de 6m/s. Já a imagem (b) da Figura 8, mostra o momento em que a quilha sai do chão, fazendo com que a fuselagem tenha 0o em relação ao solo, o que resulta em um α de 5o .
+
+.. figure:: /img/Aerial/vantsolar/comportamento_aero_2.png
+   :align: center
+   
+
+   Simulação numérica para Re = 349.000 do (a) ângulo de máxima razão Cl/Cd e para (b) ângulo de ataque de 12o
+
+É perceptível que a curva amarela, representando o arrasto induzido, diminui quando a quilha do trem de pouso se levanta do chão, assim como também percebe-se que a sustentação, indicada pelos vetores em verde, estão maiores para α = 5◦ . O downwash, como esperado, é maior nas pontas das asas, acrescentando mais arrasto neste local. Já em condição de voo horizontal com ângulo de ataque ótimo, α = 4◦ , temos a máxima diferença entre o arrasto e a sustentação, como mostrado na Figura Simulação numérica para Re. É perceptível o aumento do arrasto quando analisamos ângulos de ataque maiores (por exemplo, α = 12◦ ) para a mesma velocidade e atitude de voo, como mostra a Figura em (b).

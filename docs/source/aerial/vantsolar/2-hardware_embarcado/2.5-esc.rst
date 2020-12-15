@@ -1,0 +1,20 @@
+ESC (Electronic Speed Control)
+==================================
+
+Regulador de controld de velocidade de um motor de corrente CC brushless. O modelo utilizado no VANT com painéis solares é o Volantex R/C Super Decathlon 40A Brushless ESC.
+
+.. figure:: /img/Aerial/vantsolar/esc.png
+   :align: center
+   
+
+   Volantex R/C Super Decathlon 40A Brushless ESC - Fonte: Amainhobbies
+
+- Input: 2-4 Cells Lipo ou 15-12 cell Nimh;
+- Compativo com BEC (Battery Ellimination Circuit) de  5V/4A;
+
+
+Referências
+-----------
+
+  * `Volantex R/C Super Decathlon 40A Brushless ESC` - https://www.amainhobbies.com/volantex-r-c-super-decathlon-40a-brushless-esc-vlt-747516/p416882
+  * 'Volantex RC 40A Pro Switch-Mode BEC Brushless ESC' - https://hobbystation.co.nz/volantex-rc-40a-pro-switch-mode-bec-brushless-esc/

@@ -1,0 +1,37 @@
+Controlador de carga
+====================
+
+.. figure:: /img/Aerial/vantsolar/controlador_de_carga.png
+   :align: center
+
+   Controlador de Carga - Fonte: Genasun
+
+.. figure:: /img/Aerial/vantsolar/conexoes_controlador_de_carga.png
+   :align: center
+
+   Conexões do controlador de carga - Fonte: Genasun GV-10 Manual 
+
+.. figure:: /img/Aerial/vantsolar/controlador_de_carga_jumpers.png
+   :align: center
+
+   Seleção de modos do controlador de carga - Fonte: Genasun GV-10 Manual
+
+.. figure:: /img/Aerial/vantsolar/especificacoes_controlador_de_carga.png
+   :align: center
+
+   Especificações controlador de carga - Fonte: Datasheet Genasun GV-10
+
+.. Note:: 
+   As especificações completas da célula solar estão disponíveis nas fichas técnicas abaixo.
+
+   * :download:`Genasun GV-10 Datasheet <docs/Genasun_GV-10_Datasheet-ETL-2018.pdf>` 
+   * :download:`Genasun GV-10 Manual <docs/Genasun_GV-10_Manual-rev.4-2018.pdf>` 
+
+
+
+Referências
+-----------
+
+	* `Genasun GV-10 Lithium 16.7 Volt MPPT` - https://genasun.eu/products/genasun-gv-10-lithium-16-7-volt-mppt
+
+

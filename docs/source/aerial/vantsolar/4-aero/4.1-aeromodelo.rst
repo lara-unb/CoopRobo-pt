@@ -1,0 +1,37 @@
+Aeromodelo
+==========
+
+ O modelo do avião utilizado para executar o voo é o Ranger EX 757-3 da marca Volantex RC, mostrado na Figura 1. O modelo é um avião monomotor de asa alta, com trem de pouso convencional, ou seja, a bequilha é fixada após o leme do avião.
+
+.. figure:: /img/Aerial/vr01.png
+   :align: center
+   :width: 450px
+
+   Aeronave Ranger EX Volatex RC
+
+
+Especificações técnicas:
+
+- Wings :	1980mm (77.9 in)			
+- Overall Lenght:	1170mm (46 in)			
+- Flying weight:	1500g			
+- Propeller:	1060 Propeller			
+- Motor:	3715 powerful out runner brushless motor			
+- Speed controller:	Easy-Plug 40A Switch-mode BEC brushless ESC			
+- Servo	9-gram Servo * 6pcs			
+- Recomended battery:	11.1V/14.8V 1800mAh ~ 10000mAh Li-Po			
+- Radio:	2.4Ghz 6-Channels			
+- Battery Charger:	Not included
+- Ailerons:	Yes
+- Flaps:	Yes
+- Minimum Age Recomendations:	14 years
+- Experience Level:	Beginer ~ Expert
+- Rekomended Environment:	Outdoor
+- Assemlby Time:	Less than 30 minutes
+- Is Assembly Required:	Yes
+
+Referências
+-----------
+* PEREIRA, G. H. S. Análise de parâmetros aerodinâmicos e configuração de sistemas de comunicação e captação de imagem para um VANT com painéis solares nas asas. Faculdade de Tecnologia, Universidade de Brasília, 2019.
+
+* Volantex RC Ranger EX Long Range FPV / UAV platform Unibody big weight carrier ( V757-3 ) PNP: https://www.volantexrc.eu/volantex-rc-ranger-ex-long-range-fpv-uav-platform-unibody-big-weight-carrier-v757-3-pnp-p-224.html

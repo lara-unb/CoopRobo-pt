@@ -1,0 +1,18 @@
+Escolha do Perfil
+=================
+
+.. Note::
+   Este topico constém trechos replicados de artigos desenvolvidos no Laboratório de Robótica Aérea - UnB. Os artigos são referenciados no fim deste tópico.
+   
+
+O perfil escolhido para a asa do VANT solar deve atender todos os requisitos propostos no projeto. Um deles é poder fixar duas fileiras de paneis solares quadrados (12cm×12cm) em sua superfície superior, além de alocar os dispositivos hipersustentadores. Considerando as células como placas finas e extremamente frágeis quanto às tensões de flexão, o perfil escolhido deve ter pouca curvatura para evitar que as células sejam danificadas quando ajustadas ao formato do perfil.
+
+Sendo o valor de corda o comprimento entre o bordo de ataque e o bordo de fuga, através de experimentos chegou-se à uma dimensão de 32cm para a corda do perfil escolhido. Esse tamanho permite que todas as células sejam alocadas com segurança e ainda ter espaços para os servos e as superfícies hipersustentadoras.
+
+Assim, considerando o formato do aerofólio com as restrições apresentadas acima, além de seu uso generalizado no meio do aeromodelismo, escolheu-se o perfil CLARK-Y 11.7 % smoothed. Os pontos, no eixo cartesiano, foram obtidos a partir da base de dados do Departamento de Engenharia Aeroespacial da University of Illinois at Urbana-Champaign1 e usados para a análise numérica (ver seção 3.3) e para a construção do CAD (do inglês Computer Aided Design) no software de modelagem CATIA V5R21, que serão apresentados na seção "Simulações Numéricas no XFRL5".
+
+
+Referencias
+-----------
+
+* PEREIRA, G. H. S. Análise de parâmetros aerodinâmicos e configuração de sistemas de comunicação e captação de imagem para um VANT com painéis solares nas asas. Faculdade de Tecnologia, Universidade de Brasília, 2019.

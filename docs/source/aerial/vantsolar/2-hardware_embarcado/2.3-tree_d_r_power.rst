@@ -1,0 +1,25 @@
+3DRPOWER
+========
+
+O 3DRPOWER é um sistema de monitoramento de energia de bateria. Ele é ligado ao PixHawk e permite que o piloto automático posso executar alguma rotina coveniente quando a bateria apresentar nível de carga crítico.
+
+.. figure:: /img/Aerial/pixhawk_3dr_power_module_ligacao.jpg
+   :align: center
+   
+
+   Módulo 3DRPOWER
+
+Configurações dos pinos:
+
+- BATT_MONITOR: 3 para medir apenas a tenstão e 4 para medir a tensão e a corrente (necessário reiniciar a placa);
+- BATT_VOLT_PIN: 2. Pino de conexão do piloto automátio;
+- BATT_VOLT_MULT: Conversão de tensão analógica no pino para a tensão da bateria;
+- BATT_CURR_PIN: 3 para o pino do piloto automático conectado ao módulo de energia;
+- BATT_AMP_PERVLT: Conversão de tensão analógica no pino para a corrente da bateria;
+- BATT_AMP_OFFSET: valor de tensão no pino de corrente do módulo quando não corrente advinda da bateria;
+
+
+Referências
+-----------
+
+	* `Common Power Module` - https://ardupilot.org/copter/docs/common-3dr-power-module.html

@@ -1,0 +1,30 @@
+Dimensionamento do painel solar
+===============================
+
+.. Note::
+   Este topico constém trechos replicados de artigos desenvolvidos no Laboratório de Robótica Aérea - UnB. Os artigos são referenciados no fim deste tópico.
+
+Para determinação da quantidade de células solares, foi tomado como base o consumo energético dos subsistemas que compõem o VANT. O consumo de um motor de um VANT representa grande parcela no consumo total.
+
+Para o modelo em análise, foi utilizado um motor de corrente contínua sem escovas Turnigy 3536 1400 kv, cuja potência nominal em rotação máxima é de 590 W.
+
+Embora a potência máxima seja alta para que seja suprida por células solares em uma asa de avião, é importante ressaltar que, com base em observações experimentais, para decolagem do Volantex RC Ranger foi necessário apenas cerca de metade da potência do motor. 
+
+Em vôo reto e nivelado, foi observado que cerca de 35% a 40% da potência máxima do motor eram necessários para manutenção do vôo. Com base nisso, o sistema de energia solar que atendesse parcialmente essa potência seria satisfatório.
+
+Para a potência de 236 W (40% de potência do motor) a ser suprida durante vôo de cruzeiro, pode-se calcular a potência do painel solar, considerando as perdas e irreversibilidades das conexões, sujeiras e fatores como variação de incidência solar, a partir da equação 1. A potência necessária do painel estimada é de 296 Wp 1, considerando as variações de Horas de Sol Pleno (HSP) para o estado de Brasília - DF [2]. A equação que determina a potência em Wp é expressa por:
+
+Equação que determina a potência (Pm) em Wp:
+
+.. math::
+   Pm = \frac{L_i}{HSP . Red1 . Red2} \\
+
+
+Pm é a potência total necessária do painel, Li é o produto da potência nominal consumida pela quantidade de horas em operação. HSP é a quantidade de horas de sol pleno, com irradiação 1.000 W/m2 (para Brasília usa-se o pior caso de 4,72). Red1 e Red2 são fatores de irreversibilidade de temperatura, conexões em cabos, sujeira, incompatibilidades elétricas e etc, por padrão são adotados 0,75 e 0,9 respectivamente [2].
+
+
+Referências
+-----------
+
+   	* GOMES, D. H. Configuração e estudo do sistema de gerenciamento de energia, navegação e controle como parâmetros ótimos na montagem e desempenho de um VANT com painéis solares. Faculdade de Tecnologia, Universidade de Brasília, 2019.
+    

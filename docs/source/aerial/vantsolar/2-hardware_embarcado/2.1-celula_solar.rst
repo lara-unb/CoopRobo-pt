@@ -1,0 +1,65 @@
+Célula solar 
+============
+
+A célula solar é um aparato que converte energia proveniente da luz solar em energia elétrica. Essas células são denominadas células fotovoltaícas. No projeto do VANT com painéis solares, ele é utilizada como artifício para melhora da autonomia de vôo da aeronave.
+
+
+.. figure:: /img/Aerial/vantsolar/celula_solar.png
+   :align: center
+
+   Célula Solar C60 - Fonte: Datasheet SUNPOWER C60 SOLAR CELL
+
+.. figure:: /img/Aerial/vantsolar/img_cell_solar_c60.png
+   :align: center
+
+   Dimensões da célula solar C60 - Fonte: Datasheet SUNPOWER C60 SOLAR CELL
+
+.. figure:: /img/Aerial/vantsolar/interconnect_cell.png
+   :align: center
+
+   Conexão da célula solar - Fonte: Datasheet SUNPOWER C60 SOLAR CELL
+
+.. figure:: /img/Aerial/vantsolar/eletrical_caracteristic_cell.png
+   :align: center
+
+   Características elétricas da célula solar C60 - Fonte: Datasheet SUNPOWER C60 SOLAR CELL
+
+.. figure:: /img/Aerial/vantsolar/resposta_sensor.png
+   :align: center
+
+   Típica I-V curva - Fonte: Datasheet SUNPOWER C60 SOLAR CELL
+
+.. figure:: /img/Aerial/vantsolar/eficiencia_sensor.png
+   :align: center
+
+   Curva de eficiência do sensor - Fonte: Datasheet SUNPOWER C60 SOLAR CELL
+
+
+As células solares utilizadas possuem as seguintes características:
+
+- Vmpp: Tensão de máxima potência;
+- Voc: Tensão de circuito aberto;
+- Impp: Conrrente de máxima potência;
+- Isc: Corrente de de curto circuito;
+
+
+
+.. table:: Especificações da célula Maxeon C60
+
+	===================    ======================================
+	 Características       Valor            
+	===================    ======================================
+		Dimensões            125 x 125 mm            
+		Eficiência           21,8% 
+		Vmpp                 0,574V 
+		Voc                  0,682V                           
+		Impp                 5,83A                            
+		Isc                  6,24A         
+	===================    ======================================
+
+
+.. Note:: 
+   As especificações completas da célula solar estão disponíveis nas fichas técnicas abaixo.
+
+   * :download:`Datasheet - C60 Célula Solar <docs/sunpower_c60_bin_ghi.pdf>` 
+

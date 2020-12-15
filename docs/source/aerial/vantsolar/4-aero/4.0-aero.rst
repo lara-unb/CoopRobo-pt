@@ -1,0 +1,19 @@
+Projeto Aerodinâmico
+====================
+
+O Projeto Aerodinâmico do VANT Solar é um  híbrido entre um aeromodelo já existente, o  Ranger EX Volatex RC, e o projeto e implementação de uma nova asa que suprisse o aspecto de área disponível para a instalação da células solares.
+
+Foi realizado primeiramente a escolha do perfil de acordo com as as carecterísticas de vôo da aeronave e foi realizado posteriormente a simulação da asa no software XFRL5.
+
+Por fim realizou-se a construção da asa e sua instalação no aeromodelo. Os detalhes de cada estapa estão descritas nos tópicos a seguir.
+
+.. toctree::
+   :maxdepth: 2
+
+   4.1-aeromodelo
+   4.2-escolha_perfil
+   4.3-perfil_aero
+   4.4-comportamento_asa
+   4.5-construcao_asa
+   4.6-simulacao
+

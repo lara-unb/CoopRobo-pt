@@ -1,0 +1,32 @@
+Parâmetros Aerodinâmicos para o Perfil
+======================================
+
+.. Note::
+   Este topico constém trechos replicados de artigos desenvolvidos no Laboratório de Robótica Aérea - UnB. Os artigos são referenciados no fim deste tópico.
+
+
+A Figura a seguir apresenta a variação do Cl pelo ângulo de ataque, α. No detalhe dentro da imagem, é possível observar a mesma curva ampliada para facilitar a identificação do ângulo de máximo.
+
+.. figure:: /img/Aerial/vantsolar/xrfl5_1.png
+   :align: center
+   
+
+   Cl pelo ângulo de ataque
+
+A curva presente na Figura 6 nos dá a informação sobre o ângulo onde o Cl é máximo, isso é, aumentando o ângulo a partir desse valor, o aeromodelo entra em stall, que é a situação na qual há perda de sustentação. Avaliando parte do gráfico ampliada, temos que o ângulo de stall é αstall = 15◦ para Re = 245.000.
+
+.. figure:: /img/Aerial/vantsolar/xrfl5_2.png
+   :align: center
+   
+
+   Razão Cl/Cd pelo ângulo de ataque
+
+
+O objetivo durante o procedimento de decolagem é que o ângulo de subida não se aproxime do ângulo de stall. Mediu-se, ainda com um nível eletrônico, o ângulo de ataque da asa e obteve-se 7 o valor de α = 5◦, isso quando a fuselagem estava paralela a linha do chão. Essa informação, aliada à curva da Figura 6, permite dizer que o ângulo de ataque de decolagem está distante do de stall, trazendo mais segurança ao voo. Esses valores se assemelham às curvas presentes em (LYON, 2001) para testes com número de Reynolds aproximados para o perfil Clark-Y.
+
+A Gráfico da razão Cl/Cd pelo ângulo de ataque apresenta outra curva na qual, no eixo das ordenadas, temos a razão Cl/Cd e no eixo das abcissas, o ângulo de ataque. Analisando o gráfico para Re = 349.000, obtido para voo nivelado, temos que o melhor ângulo de ataque para essa configuração é α = 4◦ . Avaliando o parâmetro Cl1,5/Cd, percebe-se que o ângulo de máxima autonomia está na região que varia α entre 4o a 6o . Região que abrange o ângulo de ataque em voo nivelado.
+
+Referências
+-----------
+
+	* PEREIRA, G. H. S. Análise de parâmetros aerodinâmicos e configuração de sistemas de comunicação e captação de imagem para um VANT com painéis solares nas asas. Faculdade de Tecnologia, Universidade de Brasília, 2019.

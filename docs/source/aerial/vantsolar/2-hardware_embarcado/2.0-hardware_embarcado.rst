@@ -1,0 +1,45 @@
+Hardware embarcado
+==================
+
+.. figure:: /img/Aerial/vantsolar/diagrama.png
+   :align: center
+   
+
+   Diagrama do VANT com painéis solares
+
+Uma breve descrição dos componentes do VANT Solar é realizada a seguir:
+
+- Célula Solar: A célula solar é um aparato que converte energia proveniente da luz solar em energia elétrica;
+
+- Painel Solar:  Associação de células solares a fim de se obter uma quantidade maior de energia obtida atraves da luz solar;
+
+- Controle de carga: São reguladores de cargas e descargas excessivas, mantendo a estabilidade elétrica do sistema. Os dois tipos mais comuns são o sistema  PWM (pulse width modulation) e MPPT (maximum power point tracking).
+
+- 3DR Power: Sistema de monitoramento de energia;
+
+- Bateria: Unidade de amarzenamento de energia;
+
+- ESC: Sigla para "Electronic Speed Control", um dispositivo que controla a velocidade de motores CC Brushless;
+
+- PIXHAWK: Unidade de sistema de controle de estabilização de VANT's;
+
+- Servo Motor: Atuador rotativo ou linear que garante o controle de posição em malha fechada;
+
+- Motor Brushless: Motores compostos de imãs permanentes controlado por dispositivo eletrônico de comutação de bobinas elétricas;
+
+A descrição mais detalhada de cada componente pode ser encontrada a seguir:
+
+.. toctree::
+   :maxdepth: 2
+
+   2.1-celula_solar
+   2.2-controle_carga
+   2.3-tree_d_r_power
+   2.4-bateria
+   2.5-esc
+   2.6-pixhawk
+   2.7-servo
+   2.8-motor
+   2.9-fpv
+   
+

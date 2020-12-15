@@ -1,0 +1,30 @@
+Associação das células
+======================
+
+.. Note::
+   Este topico constém trechos replicados de artigos desenvolvidos no Laboratório de Robótica Aérea - UnB. Os artigos são referenciados no fim deste tópico.
+   
+
+As células fotovoltaicas podem ser associadas umas as outras em série ou em paralelo. É interessante trabalhar com baixas correntes de forma a evitar, em casos de curto circuito, que os sistemas sejam danificados. Além disso, os controladores de carga possuem um limite mínimo de tensão da bateria para que continuem operando, ou seja, é importante assegurar que a bateria esteja em níveis de tensão suficientemente altos.
+
+Com os dois lados da asa, foi possível fazer a ligação de dois módulos em paralelo, beneficiado pela própria configuração da asa, ou de uma ligação única em sentido “circular” associando as células em série. Optou-se pelo segundo caso.
+
+O posicionamento das células em série também é justificado posteriormente pelo algoritmo MPPT do controlador de carga, que é responsável por buscar o ponto ótimo na curva tensão-corrente, fornecendo sempre a mesma potência, independentemente do excesso de tensão fornecido.
+
+As células foram soldadas com estanho umas as outras com conectores do tipo dog bone, que acompanham as células.
+
+.. figure:: /img/Aerial/vantsolar/resposta_sensor.png
+   :align: center
+
+   Típica I-V curva - Fonte: Datasheet SUNPOWER C60 SOLAR CELL
+
+O ponto ótimo para potência fornecida se encontra, na curva azul devido as condições de operação, nas proximidades de 0,5V e 6A, representando uma geração ótima de aproximadamente 3W por célula, totalizando 108W.
+
+A nova asa construída permite, nessa configuração, instalação de 36 células simetricamente dispostas com relação ao perfil central, associadas em série fornecendo uma diferença de potencial de 18V. A nova configuração representa uma ocupação de cerca de 70% da área de asa, conforme figura 6, e um aumento de 50% de células em relação à asa original da aeronave.
+
+
+Referências
+-----------
+
+   	* GOMES, D. H. Configuração e estudo do sistema de gerenciamento de energia, navegação e controle como parâmetros ótimos na montagem e desempenho de um VANT com painéis solares. Faculdade de Tecnologia, Universidade de Brasília, 2019.
+    

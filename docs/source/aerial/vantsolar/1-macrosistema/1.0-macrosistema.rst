@@ -1,0 +1,98 @@
+Visão macro do sistema
+======================
+
+.. Colocar a logo do PX4 aqui
+
+.. https://ardupilot.org/copter/docs/introduction.html#
+.. https://docs.px4.io/master/en/getting_started/
+
+.. Note::
+   Este topico constém algumas informações disponíveis mais detalhadamente na pagina `VR-01`_.
+.. _VR-01: https://cooprobo.readthedocs.io/en/latest/aerial/vr01.html
+
+Introdução
+~~~~~~~~~~
+
+.. este topico foi mudado e precisa ser traduzido
+
+O VANT com painéis solares consiste em um sistema de robótica aerea composto por uma aeronvae radiocontrolada com auxilio de um sistema controle e navegação em conjunto com um sistema de gerenciamento de energia.  
+
+.. PX4 is the professional open source autopilot, developed by both world-class developers from industry and academia, and supported by the active world wide community. The PX4 can run on multiple flight controll boards. Deserving highlight flight open hardware controllers of the `PixHawk`_ series, running PX4 on `NuttX OS`_ [1]_.  
+
+O sistema de navegação e controle por sua vez é subdivido em um sistema de malha fechada que realiza a estabilização de vôo e um sistema de telemetria que permite o controle de navegação da aeronave. Por fim, para o controle manual é utilizado um sistema de FPV (First person view) que consiste em sistema de transmissão de vídeo em tempo real das imagens de uma camera embarcada na aeronave para uma estação em solo. 
+
+.. Given the options available on the market, Pixhawk 1 was chosen as an autopilot for its best cost benefit for the project.
+
+O sistema de gerenciamento de energia consiste em um conjunto de células fotovoltaicas disposta sobre a asa da aeronvave formando em conjunto um painel solar. Essa energia obtida e gerenciada por um controlador de carga que regula cargas e descargas excessivas do sistema. 
+
+.. The Pixhawk operate in several types of vehicle, from racing drones and cargo to land and submersible vehicles. In this article we will focus on aircraft application, where the Pixhawk operate as a general use flight controller, responsible for the acquisition, conditioning and processing of signals from the aircraft's sensors and for controlling the aircraft's actuators.
+
+
+.. figure:: /img/Aerial/vantsolar/diagrama_sistema.png
+   :align: center
+
+   Visão Macro do sistemas do VANT com painéis solares
+
+
+
+Conceitos Básicos
+~~~~~~~~~~~~~~~~~
+
+Este tópico apresenta alguns conceitos básicos a respeito do VANT com painéis solares. 
+
+.. This topic introduces some basics concepts about unmanned aerial vehicles (UAV) and the use of PX4 platform.
+
+
+Veículo aéreo não tripulado (VANT ou *drone*)
+---------------------------------------------
+
+Um VANT (Veículo Aéreo Não Tripulado) é um tipo de aeronave em que não há tripulação e é controlada remotamente, podendo realizar vôos em modo autônomos.
+
+.. A UAV is any types of aircraft that can be controlled on the 3 axes of freedom and do not need a pilot on board to be guided, being able to be controlled remotely or autonomously.
+
+
+Estação de Controle em Solo (ECS)
+---------------------------------
+
+Uma Estação de Controle em Solo (ECS) é um subsistema de controle na qual uma aplicação de software em um computador em solo se comunica com o VANT fornecendo o comando de execução da missão.
+
+.. A Ground Control Station (GCS) is a control platform, usually a software application running on a computer on the ground, which communicates with UAVs for wireless telemetry and provides human operators control of the aircraft.
+
+Sistema de gerenciamento de energia (MPPT)
+------------------------------------------
+
+O algoritmo MPPT ((Maximum power point tracking) possibilita o rastreamento do ponto de potência máxima fazendo o ajuste contínuo da impedância percebida para que o sistema fotovoltaico opere no ponto de máxima potência mesmo sob variação da irradiação solar. 
+
+.. PX4 is part of the `Dronecode Plataform`_, a complete platform for drone development, under an open source license the community. It includes, among other things, the `PX4`_ flight stack, `QGroundControl`_ ground control station, the `Dronecode SDK`_ and the `Dronecode Camera Manager`_. [4]_
+
+
+FPV
+---
+
+FPV (First person view) é um sistema de transmissão de vídeo de uma camera embarcada na aeronave com observação em primeira pessoa da estação de controle.  Sua transmisão é realizada através de receptores na faixa de 5,8 GHz.
+
+.. The PX4 based system uses several sensors to determine vehicle state (these being essential for stabilization and to enable autonomous control). The vehicle states include: position, heading, speed, airspeed, orientation (attitude), rates of rotation in different directions, battery level, etc.
+
+
+Célula Solar e Painel Solar
+---------------------------
+
+Célula solar é o nome dado para cada unidade geradora de energia de um painel solar. Neste projeto são placas feitas de silício cristalino que convertem luz solar em energia elétrica. O painel solar  por sua vez é associação em série de células solares.
+
+
+ECT
+---------------------------
+
+Célula solar é o nome dado para cada unidade geradora de energia de um painel solar. Neste projeto são placas feitas de silício cristalino que convertem luz solar em energia elétrica. O painel solar  por sua vez é associação em série de células solares.
+
+
+
+.. The PX4 supports several receivers and compasses (magnetometers) of the Global Navigation Satellite System (GNSS). It also supports Real Time Kinematic (RTK) GPS Receivers, optimizing GPS systems to centimeter level accuracy.
+
+.. [2] `Choosing a Ground Station - Conter documentation`_. ardupilot.org 
+.. _Choosing a Ground Station - Conter documentation: https://ardupilot.org/copter/docs/common-choosing-a-ground-station.html#choosing-a-ground-station
+
+.. [3] `Dronecode Platform, Basic Concepts, PX4 Autopilot User Guide`_. docs.px4.io
+.. _Dronecode Platform, Basic Concepts, PX4 Autopilot User Guide: https://docs.px4.io/v1.9.0/en/getting_started/px4_basic_concepts.html#dronecode
+
+

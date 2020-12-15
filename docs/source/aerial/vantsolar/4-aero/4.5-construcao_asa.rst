@@ -1,0 +1,78 @@
+Construção da Asa
+=================
+
+
+.. Note::
+   Este topico constém trechos replicados de artigos desenvolvidos no Laboratório de Robótica Aérea - UnB. Os artigos são referenciados no fim deste tópico.
+
+   
+
+Todas as peças foram cortadas a laser, para que haja uma perfeição nas medidas. A primeira peça projetada é a que tem o mesmo formato da abertura superior do avião. Ela servirá como ligação da fuselagem com a asa. A peça, denominada de ‘Fixador Central’ (com espessura de 10mm), tem suas dimensões apresentadas à esquerda da Figura, e à direta, a peça produzida. 
+
+.. figure:: /img/Aerial/vantsolar/construcao_1.png
+   :align: center
+   
+
+   Desenho esquemático do Fixador Central (Esquerda) e a peça produzida em madeira de balsa (direita)
+
+Independente do perfil escolhido, existem vários formatos que podem ser adotados na escolha de uma asa. As mais comuns, usadas em grandes aeronaves, são as em formato delta, trapezoidal ou as elípticas. Todas elas requerem uma alta complexidade de construção. Levando em consideração a limitação do projeto, o formato escolhido foi a retangular, por ter uma fabricação mais simples comparadas às outras apresentadas anteriormente. Para dar rigidez e poder resistir aos esforços estruturais, existe uma estrutura de reforço chamado longarina, que é disposta ao longo do eixo transversal e serve de ligação entre os perfis. As longarinas do projeto foram fabricadas em fibra de carbono por serem resistentes e pelo seu baixo peso, comparado a outros metais. Isso permite que a asa não seja extremamente rígida, o que pode ocasionar um fratura abrupta da asa (MEGSON, 2016).
+
+No projeto foram utilizadas longarinas de três diâmetros diferentes, sendo que as duas com maiores diâmetros se localizam na raiz da asa e têm 21,5 mm e 8 mm. As longarinas que se encontram mais perto da região da asa têm 5 mm de diâmetro. Essa diferença de diâmetros é de suma importância pois será o fator que determinará cada seção da asa. A asa foi dividida em cinco (5) seções diferentes, todas elas delimitadas pelas diferenças de diâmetros das longarinas. As três regiões possíveis em que a longarina pode estar é perto do bordo de ataque (denominada de ‘Longarin B.A.’), perto do bordo de fuga (denominado de ‘Longarina B.F.’) ou entre essas duas, no qual chamaremos de ‘Longarina Central’. As seções podem ser observadas na Figura 3.
+
+.. figure:: /img/Aerial/vantsolar/construcao_2.png
+   :align: center
+   
+
+   Vista Superior das cinco seções delimitadoras da asa do VANT solar
+
+As características de cada seção, com os diâmetros das longarinas, estão apresentadas na tabela Diâmetros das longarinas e comprimento das seções da asa. No caso de haver o símbolo ‘-’ em alguma célula, indica que naquela seção não existe aquela longarina, já o símbolo ‘(2x)’ representa uma quantidade de duas longarinas com determinado diâmetro, representado pela letra grega φ.
+
+
+.. table:: Diâmetros das longarinas e comprimento das seções da asa
+
+    =====    =================    ==================    ======================     ====================
+    Seção     Comprim. (mm)       Longarina B.A (mm)    Longarina Central (mm)      Longarina B.F. (mm)
+    =====    =================    ==================    ======================     ====================
+    A             470                    21,5                   -                           8
+    B             150                    21,5                   -                           5
+    C             100                    5 (2x)                 -                           5
+    D             180                    5 (2x)                 5                           5
+    E             310                    5 (2x)                 5                           -
+    =====    =================    ==================    ======================     ====================
+
+
+A tabela Diâmetros das longarinas e comprimento das seções da asa apresenta a quantidade de perfis necessários em cada seção e a distância que cada um deve ser colocado do outro. O layout interno de cada perfil segundo a sua seção se encontra no Anexo desse relatório.
+
+
+.. table:: Especificações de cada perfil por seção
+
+    ======    =================    ==================    ===========================
+    Perfil     Seção                Quantidade           Distância entre perfil (mm)
+    ======    =================    ==================    ===========================
+    1             A                    5                  94                        
+    2             B                    2                  75                        
+    3             C                    1                  -                         
+    4             D                    2                  18                        
+    5             E                    3                  155                       
+    ======    =================    ==================    ===========================
+
+
+
+Com as características definidas, os perfis alocados, com as dimensões de suas respectivas 5 seções, podem ser observados na Figura 4. Lembrando que o esquema apresenta a semi-envergadura da asa, assim como o CAD apresentado na Figura 5.
+
+.. figure:: /img/Aerial/vantsolar/construcao_3.png
+   :align: center
+   
+
+   Asa completa com as cotas e perfis correspondentes em cada seção.
+
+.. figure:: /img/Aerial/vantsolar/construcao_4.png
+   :align: center
+   
+
+   Modelagem computacional no CATIA da metade da asa
+
+Referências
+-----------
+
+  * PEREIRA, G. H. S. Análise de parâmetros aerodinâmicos e configuração de sistemas de comunicação e captação de imagem para um VANT com painéis solares nas asas. Faculdade de Tecnologia, Universidade de Brasília, 2019.

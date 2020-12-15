@@ -1,0 +1,22 @@
+Sistema de FPV
+==============
+
+.. Note::
+   Este topico constém trechos replicados de artigos desenvolvidos no Laboratório de Robótica Aérea - UnB. Os artigos são referenciados no fim deste tópico.
+
+
+Para o funcionamento do sistema de comunicação é preciso ter uma base emissora e uma base receptora. A base receptora escolhida foi um computador com o software Mission Planner instalado, que será responsável pelo recebimento e pela exibição dos dados de voo, como ângulo de atitude, nível da bateria, potência do motor entre outros.
+
+Para a base emissora, existe duas possibilidades de conexão: por USB ou por telemetria. A conexão por USB é simples e é feita conectando o computador da base direto na Pixhawk, responsável pelo piloto automático. Essa opção foi utilizando quando se precisava fazer testes em solo, mas inviável quando em voo. Em voo, utilizou-se a telemetria para a transmissão desses dados, tendo como forma de transmissão uma antena localizada na região do nariz do aeromodelo ligada a Pixhawk.
+
+O sistema de aquisição de imagem é do tipo FPV. Esse tipo de sistema vem com um transmissor, que deve ser colocado dento do aeromodelo, e um receptor de deverá estar conectado a um monitor em solo. Com isso, é possível obter imagens em tempo real do voo, sendo necessário apenas que o transmissor esteja ligado a bateria do aeromodelo. A marca do FPV utilizado nesse projeto é a Fat Shark, modelo Pilot Cam 700CCD, pois ela apresenta uma qualidade razoável de imagem e por isso, atende os requisitos de missão.
+
+Para esse sistema, foram realizados apenas testes em laboratório, ou seja, o sistema não foi inserido no aeromodelo em nenhum momento durante os voos de teste no parque de aeromodelismo.
+
+
+Referências
+-----------
+
+* PEREIRA, G. H. S. Análise de parâmetros aerodinâmicos e configuração de sistemas de comunicação e captação de imagem para um VANT com painéis solares nas asas. Faculdade de Tecnologia, Universidade de Brasília, 2019.
+
+
